@@ -258,7 +258,7 @@ def router(path):
     prevent_initial_call=True)
 def show_edge_info(edge):
     if not (edge and edge.get('pmid')):
-        return ""
+        return html.Div("No PubMed ID available for this edge.")
 
     pmid = edge['pmid']
     rel = edge.get('rel', 'N/A')
