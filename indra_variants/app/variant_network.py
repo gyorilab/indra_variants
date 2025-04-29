@@ -173,7 +173,8 @@ def network_page(prot: str):
             id={'type': 'cy-net', 'prot': prot},
             elements=els, layout={'name': 'preset'},
             # Set width and height to fill the viewport
-            style={'width': '100%', 'height': '100vh'},
+            style={'width': '100%', 'height': 'calc(100vh - 100px)',
+                   'position': 'relative', 'zIndex': 1},
             stylesheet=[
                 {'selector': 'node', 'style': {
                     'shape': 'ellipse', 'background-opacity': 0.5,
