@@ -1,28 +1,32 @@
-# variant_network.py  -------------------------------------------------
-import os, re, math, urllib.parse as _url
+import re
+import math
+import urllib.parse as _url
 from pathlib import Path
 
-import dash, dash_bootstrap_components as dbc
+import dash
+import dash_bootstrap_components as dbc
 import dash_cytoscape as cyto
 import networkx as nx
 import pandas as pd
 from dash import html, dcc, Input, Output, State, MATCH
 
-from config import DATA_DIR, PORT, DEBUG 
+from config import DATA_DIR, PORT, DEBUG
 
 cyto.load_extra_layouts()
 
 TSV_RE = re.compile(r"^(?P<prot>.+)_variant_effects\.tsv$", re.I)
-PROTS  = sorted(TSV_RE.match(p.name).group("prot")
-                for p in Path(DATA_DIR).iterdir()
-                if TSV_RE.match(p.name))
+PROTS = sorted(TSV_RE.match(p.name).group("prot")
+               for p in Path(DATA_DIR).iterdir()
+               if TSV_RE.match(p.name))
+
 
 # ----------------------Build Graph--------------------------–
 def build_elements(prot: str):
     df_path = Path(DATA_DIR) / f"{prot}_variant_effects.tsv"
     df = pd.read_csv(df_path, sep="\t")
 
-    G = nx.MultiDiGraph();  G.add_node(prot)
+    G = nx.MultiDiGraph()
+    G.add_node(prot)
 
     for _, row in df.iterrows():
         var = row["variant_info"]
@@ -36,40 +40,47 @@ def build_elements(prot: str):
                        relation=rel.strip(), pmid=row["pmid"])
             src = tgt.strip()
 
-    variants   = set(df["variant_info"])
-    endpoints  = set(df["biological_process/disease"])
-    freq       = df["biological_process/disease"].value_counts().to_dict()
-    layer = lambda n: 0 if n == prot else 1 if n in variants else 3 if n in endpoints else 2
+    variants = set(df["variant_info"])
+    endpoints = set(df["biological_process/disease"])
+    freq = df["biological_process/disease"].value_counts().to_dict()
 
+    def get_layer(n):
+        if n == prot:
+            return 0
+        if n in variants:
+            return 1
+        if n in endpoints:
+            return 3
+        return 2
 
     pos = {prot: (0, 0)}
     for L in range(1, 4):
-        ring = [n for n in G if layer(n) == L]
+        ring = [n for n in G if get_layer(n) == L]
         for i, n in enumerate(ring):
-            r   = 280 * (L + 2)
+            r = 280 * (L + 2)
             ang = 2 * math.pi * i / len(ring)
             pos[n] = (r * math.cos(ang), r * math.sin(ang))
 
     rel_types = sorted({d['relation'] for _, _, d in G.edges(data=True)
                         if d['relation'] != 'PV'})
-    palette   = ["#e74c3c", "#2ecc71", "#3498db", "#f39c12", "#9b59b6"]
+    palette = ["#e74c3c", "#2ecc71", "#3498db", "#f39c12", "#9b59b6"]
     rel_color = {r: palette[i % len(palette)] for i, r in enumerate(rel_types)}
 
     els = []
     for n, (x, y) in pos.items():
-        L     = layer(n)
-        size  = 60 if L != 3 else 50 + 10 * freq.get(n, 1)
-        label = '' if L == 3 else n
+        layer = get_layer(n)
+        size = 60 if layer != 3 else 50 + 10 * freq.get(n, 1)
+        label = '' if layer == 3 else n
         els.append({
             "data": {"id": n, "label": label, "real": n},
             "position": {"x": x, "y": y},
-            "classes": f"L{L}",
+            "classes": f"L{layer}",
             "style": {"width": size, "height": size}
         })
 
     for u, v, d in G.edges(data=True):
-        cls        = 'edge-PV' if d['relation'] == 'PV' else f"edge-{d['relation']}"
-        src4indra  = prot if u in variants else u
+        cls = 'edge-PV' if d['relation'] == 'PV' else f"edge-{d['relation']}"
+        src4indra = prot if u in variants else u
         els.append({
             "data": {"id": f"{u}->{v}_{d['pmid']}",
                      "source": u, "target": v,
@@ -81,11 +92,13 @@ def build_elements(prot: str):
     edge_set = {(u, v) for u, v in G.edges()}
     return els, rel_types, rel_color, list(edge_set)
 
+
 # ------------------------Dash App------------------------–
 app = dash.Dash(__name__,
                 suppress_callback_exceptions=True,
                 external_stylesheets=[dbc.themes.FLATLY])
 app.layout = html.Div([dcc.Location(id="url"), html.Div(id="page")])
+
 
 # ---Homepage---
 def homepage():
@@ -100,9 +113,11 @@ def homepage():
                    style={'fontSize': 18, 'margin': '0 0 20px 0'}),
             dcc.Dropdown(id='prot-search', options=prot_options,
                          placeholder="search protein / gene …",
-                         style={'fontSize': 18}, clearable=True, searchable=True),
+                         style={'fontSize': 18}, clearable=True,
+                         searchable=True),
             dbc.Button("Search", id='submit-prot', n_clicks=0,
-                       color="primary", style={'marginTop': 18, 'fontSize': 18}),
+                       color="primary", style={'marginTop': 18,
+                                               'fontSize': 18}),
         ],
         style={'maxWidth': 880, 'margin': '40px auto',
                'background': '#f8f9fa', 'padding': '32px 48px',
@@ -117,16 +132,20 @@ def homepage():
     footer = html.Div(
         [
             html.Span("Developed by the "),
-            html.A("Gyori Lab", href="https://gyorilab.github.io/", target="_blank"),
+            html.A("Gyori Lab", href="https://gyorilab.github.io",
+                   target="_blank"),
             html.Span(" at Northeastern University"),
             html.Br(),
-            html.Span("INDRA Variant is funded by DARPA ASKEM / ARPA-H BDF (HR00112220036)")
+            html.Span("INDRA Variant is funded under DARPA ASKEM / "
+                      "ARPA-H BDF (HR00112220036)")
         ],
-        style={'background': '#f1f1f1', 'padding': '10px 24px', 'textAlign': 'center',
-               'fontSize': 14, 'fontFamily': 'Arial, sans-serif', 'marginTop': 40}
+        style={'background': '#f1f1f1', 'padding': '10px 24px',
+               'textAlign': 'center', 'fontSize': 14,
+               'fontFamily': 'Arial, sans-serif', 'marginTop': 40}
     )
 
     return html.Div([search_card, directory, footer])
+
 
 # ---Network Page---
 def network_page(prot: str):
@@ -135,18 +154,19 @@ def network_page(prot: str):
     def rel_style(r, c):
         return {'selector': f'.edge-{r}',
                 'style': {'line-color': c, 'target-arrow-color': c,
-                          'target-arrow-shape': 'triangle', 'curve-style': 'bezier',
-                          'width': 2}}
+                          'target-arrow-shape': 'triangle',
+                          'curve-style': 'bezier', 'width': 2}}
 
     return html.Div([
         dcc.Link("← Home", href="/"), html.Br(),
         html.H3(f"{prot} Variant Network", style={'textAlign': 'center'}),
         html.P("Tip: click the central protein/gene to clear all highlights.",
-               style={'textAlign': 'center', 'marginTop': -6, 'marginBottom': 12,
-                      'color': '#666', 'fontFamily': 'Arial, sans-serif'}),
+               style={'textAlign': 'center', 'marginTop': -6,
+                      'marginBottom': 12, 'color': '#666',
+                      'fontFamily': 'Arial, sans-serif'}),
 
         dcc.Store(id={'type': 'store-els',  'prot': prot},  data=els),
-        dcc.Store(id={'type': 'store-edges','prot': prot},  data=edge_set),
+        dcc.Store(id={'type': 'store-edges', 'prot': prot},  data=edge_set),
         dcc.Store(id={'type': 'store-root', 'prot': prot},  data=prot),
 
         cyto.Cytoscape(
@@ -154,39 +174,56 @@ def network_page(prot: str):
             elements=els, layout={'name': 'preset'},
             style={'width': '100%', 'height': '860px'},
             stylesheet=[
-                {'selector': 'node','style': {
+                {'selector': 'node', 'style': {
                     'shape': 'ellipse', 'background-opacity': 0.5,
                     'font-size': 38, 'font-weight': 'bold',
-                    'label': 'data(label)','text-valign': 'center',
+                    'label': 'data(label)',
+                    'text-valign': 'center',
                     'text-halign': 'center'}},
-                {'selector': '.L0','style': {'background-color': '#aacdd7',
-                                             'color': '#004466','label': 'data(real)'}},
-                {'selector': '.L1','style': {'background-color': '#a492bb','color': '#573d82'}},
-                {'selector': '.L2','style': {'background-color': '#cce9b6','color': '#3f6330'}},
-                {'selector': '.L3','style': {'background-color': '#fabf77',
-                                             'color': '#b05e04','label': 'data(real)'}},
-                {'selector': '.edge-PV','style': {'line-color': '#d5cbc9',
-                                                  'target-arrow-color': '#d5cbc9',
-                                                  'target-arrow-shape': 'triangle',
-                                                  'curve-style': 'bezier','width': 2}},
+                {'selector': '.L0',
+                 'style': {'background-color': '#aacdd7',
+                           'color': '#004466',
+                           'label': 'data(real)'}},
+                {'selector': '.L1',
+                 'style': {'background-color': '#a492bb',
+                           'color': '#573d82'}},
+                {'selector': '.L2',
+                 'style': {'background-color': '#cce9b6',
+                           'color': '#3f6330'}},
+                {'selector': '.L3',
+                 'style': {'background-color': '#fabf77',
+                           'color': '#b05e04',
+                           'label': 'data(real)'}},
+                {'selector': '.edge-PV',
+                 'style': {'line-color': '#d5cbc9',
+                           'target-arrow-color': '#d5cbc9',
+                           'target-arrow-shape': 'triangle',
+                           'curve-style': 'bezier',
+                           'width': 2}},
                 *[rel_style(r, c) for r, c in rel_color.items()],
-                {'selector': '.faded','style': {'opacity': 0.15}}
+                {'selector': '.faded', 'style': {'opacity': 0.15}}
             ]),
 
         # ---------- Legend ----------
         html.Div([
-            html.H4("Legend", style={'margin': 0, 'fontSize': 18,
-                                     'fontWeight': 'normal',
-                                     'fontFamily': 'Arial, sans-serif'}),
+            html.H4("Legend",
+                    style={'margin': 0, 'fontSize': 18,
+                           'fontWeight': 'normal',
+                           'fontFamily': 'Arial, sans-serif'}),
             html.Ul([
-                html.Li([html.Span('→', style={'color': rel_color.get(r,'#d5cbc9'),
-                                               'marginRight': 8, 'fontSize': 18}), r],
-                        style={'fontSize': 18, 'listStyle': 'none', 'margin': '1px 0'})
+                html.Li([html.Span('→',
+                                   style={'color': rel_color.get(r, '#d5cbc9'),
+                                          'marginRight': 8,
+                                          'fontSize': 18}), r],
+                        style={'fontSize': 18, 'listStyle': 'none',
+                               'margin': '1px 0'})
                 for r in (['Gene to Variant'] + rel_types)
             ], style={'paddingLeft': 0})
         ], style={'position': 'absolute', 'top': 95, 'right': 28,
-                  'background': 'rgba(255,255,255,0.85)', 'padding': '8px 12px',
-                  'borderRadius': 6, 'boxShadow': '0 0 4px rgba(0,0,0,0.3)',
+                  'background': 'rgba(255,255,255,0.85)',
+                  'padding': '8px 12px',
+                  'borderRadius': 6,
+                  'boxShadow': '0 0 4px rgba(0,0,0,0.3)',
                   'fontFamily': 'Arial, sans-serif'}),
 
         # ---------- Edge-info ----------
@@ -199,6 +236,7 @@ def network_page(prot: str):
                         'zIndex': 999})
     ])
 
+
 # ----
 @app.callback(Output("page", "children"), Input("url", "pathname"))
 def router(path):
@@ -210,6 +248,7 @@ def router(path):
             return network_page(prot)
     return html.H3("404 – Not found")
 
+
 # ---------------------- edge info callback ------------------------------
 @app.callback(
     Output({'type': 'edge-info', 'prot': MATCH}, 'children'),
@@ -220,7 +259,7 @@ def show_edge_info(edge):
         return ""
 
     pmid = edge['pmid']
-    rel  = edge.get('rel', 'N/A')
+    rel = edge.get('rel', 'N/A')
 
     pubmed_link = html.A("🔗 PubMed",
                          href=f"https://pubmed.ncbi.nlm.nih.gov/{pmid}/",
@@ -239,6 +278,7 @@ def show_edge_info(edge):
         pubmed_link, indra_link
     ])
 
+
 # ---------------------- highlight callback ---------------------------------
 @app.callback(
     Output({'type': 'cy-net', 'prot': MATCH}, 'elements'),
@@ -256,8 +296,8 @@ def highlight(node, elements, edge_set, root_prot):
             el['classes'] = el['classes'].replace(' faded', '')
         return elements
 
-    edge_set  = {tuple(e) for e in edge_set}
-    sel       = node['id']
+    edge_set = {tuple(e) for e in edge_set}
+    sel = node['id']
     keep_nodes = {sel}
     keep_edges = set()
 
@@ -266,20 +306,24 @@ def highlight(node, elements, edge_set, root_prot):
         cur = stack.pop()
         for s, t in edge_set:
             if s == cur and (s, t) not in keep_edges:
-                keep_edges.add((s, t)); keep_nodes.add(t); stack.append(t)
+                keep_edges.add((s, t))
+                keep_nodes.add(t)
+                stack.append(t)
 
     stack = [sel]
     while stack:
         cur = stack.pop()
         for s, t in edge_set:
             if t == cur and (s, t) not in keep_edges:
-                keep_edges.add((s, t)); keep_nodes.add(s); stack.append(s)
+                keep_edges.add((s, t))
+                keep_nodes.add(s)
+                stack.append(s)
 
     for el in elements:
-        if 'source' in el['data']:       # edge
+        if 'source' in el['data']:  # edge
             keep = ((el['data']['source'], el['data']['target']) in keep_edges
                     or el['data']['rel'] == 'PV')
-        else:                            # node
+        else:  # node
             keep = el['data']['id'] in keep_nodes
 
         if keep:
@@ -289,6 +333,7 @@ def highlight(node, elements, edge_set, root_prot):
                 el['classes'] += ' faded'
 
     return elements
+
 
 # ---------------------- Search -------------------------------
 @app.callback(Output('prot-directory', 'children'),
@@ -320,12 +365,14 @@ def filter_directory(query):
         )
     return blocks
 
+
 @app.callback(Output('url', 'href', allow_duplicate=True),
               Input('submit-prot', 'n_clicks'),
               State('prot-search', 'value'),
               prevent_initial_call=True)
 def jump_to_protein(_, value):
     return f"/protein/{value}" if value else dash.no_update
+
 
 # --------------------Run App----------------------------–
 if __name__ == "__main__":
