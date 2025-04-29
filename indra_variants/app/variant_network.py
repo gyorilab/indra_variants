@@ -228,7 +228,8 @@ def network_page(prot: str):
                   'fontFamily': 'Arial, sans-serif'}),
 
         # ---------- Edge-info ----------
-        html.Div(id={'type': 'edge-info', 'prot': prot},
+        html.Div(html.Div("Click on an edge to see more info."),
+                 id={'type': 'edge-info', 'prot': prot},
                  style={'position': 'absolute', 'top': 95, 'right': 250,
                         'minWidth': 150, 'background': 'rgba(255,255,255,0.9)',
                         'padding': '10px 14px', 'borderRadius': 6,
