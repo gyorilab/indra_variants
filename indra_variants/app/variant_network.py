@@ -172,7 +172,8 @@ def network_page(prot: str):
         cyto.Cytoscape(
             id={'type': 'cy-net', 'prot': prot},
             elements=els, layout={'name': 'preset'},
-            style={'width': '100%', 'height': '860px'},
+            # Set width and height to fill the viewport
+            style={'width': '100%', 'height': '100vh'},
             stylesheet=[
                 {'selector': 'node', 'style': {
                     'shape': 'ellipse', 'background-opacity': 0.5,
