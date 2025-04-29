@@ -93,7 +93,7 @@ def homepage():
 
     search_card = html.Div(
         [
-            html.H1("Variant Network Explorer",
+            html.H1("Protein Variant Network Explorer",
                     style={'marginTop': 0, 'marginBottom': 12}),
             html.P("Type a protein/gene name below (auto-suggest enabled) "
                    "or browse alphabetically.",
