@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "indra_variants"
+version = "0.1.0"
+description = "INDRA-assembled pathways for protein variant effects"
+authors = [
+    { name="Jici Jiang", email="j.jiang@northeastern.edu",
+      name="Benjamin M. Gyori", email="b.gyori@northeastern.edu"}
+]
+readme = "README.md"
+requires-python = ">=3.9"
+license = { file = "LICENSE" }
+dependencies = [
+    "dash==3.0.3",
+    "dash_bootstrap_components",
+    "dash_cytoscape==1.0.2",
+    "pandas==2.2.3",
+    "networkx==3.2.1",
+    "plotly==5.24.1"
+]
+
+[tool.setuptools]
+packages = ["indra_variants", "indra_variants.app"]
