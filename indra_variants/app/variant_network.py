@@ -97,6 +97,8 @@ def build_elements(prot: str):
 app = dash.Dash(__name__,
                 suppress_callback_exceptions=True,
                 external_stylesheets=[dbc.themes.FLATLY])
+# Set the server for deployment, see https://dash.plotly.com/deployment
+server = app.server
 app.layout = html.Div([dcc.Location(id="url"), html.Div(id="page")])
 
 
