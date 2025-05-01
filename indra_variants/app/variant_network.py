@@ -10,7 +10,7 @@ import networkx as nx
 import pandas as pd
 from dash import html, dcc, Input, Output, State, MATCH
 
-from config import DATA_DIR, PORT, DEBUG
+from indra_variants.app.config import DATA_DIR, PORT, DEBUG
 
 cyto.load_extra_layouts()
 
