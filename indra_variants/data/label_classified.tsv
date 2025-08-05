@@ -1,0 +1,1086 @@
+term	primary_category	all_categories	classification_sources	GO_id	MESH_id	HP_id	DOID_id	EFO_id
+ATP biosynthetic process	Energy_Mitochondrial	Biological_Processes|Energy_Mitochondrial	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0006754				
+Adipogenesis	Cell_Differentiation_Development	Biological_Processes|Cell_Differentiation_Development	"{""Biological_Processes"": [""MESH:heuristic""]}"		MESH:D050156			
+Aging	General_Biological_Processes	Biological_Processes|General_Biological_Processes	"{""Biological_Processes"": [""MESH:heuristic""]}"		MESH:D000375			
+Atrial Fibrillation	Cardiovascular_Diseases	Biological_Processes|Cardiovascular_Diseases	"{""Biological_Processes"": [""MESH:heuristic""]}"		MESH:D001281			
+B cell activation	Immune_Response	Biological_Processes|Immune_Response	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0042113				
+B cell differentiation	Cell_Differentiation_Development	Biological_Processes|Cell_Differentiation_Development	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0030183				
+B cell proliferation	Cell_Growth_Proliferation	Biological_Processes|Cell_Growth_Proliferation	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0042100				
+Brain Infarction	Cardiovascular_Diseases	Biological_Processes|Cardiovascular_Diseases	"{""Biological_Processes"": [""MESH:heuristic""]}"		MESH:D020520			
+Cadmium Poisoning	General_Biological_Processes	Biological_Processes|General_Biological_Processes	"{""Biological_Processes"": [""MESH:heuristic""]}"		MESH:D002105			
+Carcinogenesis	Cancer_and_Neoplasms	Biological_Processes|Cancer_and_Neoplasms	"{""Biological_Processes"": [""MESH:heuristic""]}"		MESH:D063646			
+Choroidal Neovascularization	Tissue_Remodeling	Biological_Processes|Tissue_Remodeling	"{""Biological_Processes"": [""MESH:heuristic""]}"		MESH:D020256			
+DNA Damage	DNA_Chromatin_Processes	Biological_Processes|DNA_Chromatin_Processes	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0006974				
+DNA biosynthetic process	DNA_Chromatin_Processes	Biological_Processes|DNA_Chromatin_Processes	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0071897				
+DNA damage checkpoint	Cell_Cycle_Division	Biological_Processes|Cell_Cycle_Division	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0000077				
+DNA demethylation	DNA_Chromatin_Processes	Biological_Processes|DNA_Chromatin_Processes	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0080111				
+DNA methylation	DNA_Chromatin_Processes	Biological_Processes|DNA_Chromatin_Processes	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0006306				
+DNA packaging	DNA_Chromatin_Processes	Biological_Processes|DNA_Chromatin_Processes	"{""Biological_Processes"": [""MESH:heuristic""]}"		MESH:D042003			
+DNA recombination	DNA_Chromatin_Processes	Biological_Processes|DNA_Chromatin_Processes	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0006310				
+DNA repair	DNA_Chromatin_Processes	Biological_Processes|DNA_Chromatin_Processes	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0006281				
+DNA replication	DNA_Chromatin_Processes	Biological_Processes|DNA_Chromatin_Processes	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0006260				
+DNA strand elongation involved in DNA replication	DNA_Chromatin_Processes	Biological_Processes|DNA_Chromatin_Processes	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0006271				
+Death	Cell_Death_Survival	Biological_Processes|Cell_Death_Survival	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0008219				
+Dimerization	General_Biological_Processes	Biological_Processes|General_Biological_Processes	"{""Biological_Processes"": [""MESH:heuristic""]}"		MESH:D019281			
+ERAD pathway	Protein_Synthesis_Degradation	Biological_Processes|Protein_Synthesis_Degradation	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0036503				
+Fasciculation	Cell_Movement_Adhesion	Biological_Processes|Cell_Movement_Adhesion	"{""Biological_Processes"": [""MESH:heuristic""]}"		MESH:D005207			
+Frontotemporal Lobar Degeneration	Neurological_Disorders	Biological_Processes|Neurological_Disorders	"{""Biological_Processes"": [""MESH:heuristic""]}"		MESH:D057174			
+G1 phase	Cell_Cycle_Division	Biological_Processes|Cell_Cycle_Division	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0051318				
+G2 phase	Cell_Cycle_Division	Biological_Processes|Cell_Cycle_Division	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0051319				
+Group I intron splicing	RNA_Transcription	Biological_Processes|RNA_Transcription	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0000372				
+Hepatolenticular Degeneration	Genetic_Disorders	Biological_Processes|Genetic_Disorders	"{""Biological_Processes"": [""MESH:heuristic""]}"		MESH:D006527			
+Homeostasis	Homeostasis_Regulation	Biological_Processes|Homeostasis_Regulation	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0042592				
+Hydrogen-Ion Concentration	Homeostasis_Regulation	Biological_Processes|Homeostasis_Regulation	"{""Biological_Processes"": [""MESH:heuristic""]}"		MESH:D006863			
+Hydrolysis	General_Biological_Processes	Biological_Processes|General_Biological_Processes	"{""Biological_Processes"": [""MESH:heuristic""]}"		MESH:D006868			
+Hyperpigmentation	Clinical_Symptoms	Biological_Processes|Clinical_Symptoms	"{""Biological_Processes"": [""MESH:heuristic""]}"		MESH:D017495			
+Hypersensitivity	Immune_Response	Biological_Processes|Immune_Response	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0002524				
+Hypopigmentation	Clinical_Symptoms	Biological_Processes|Clinical_Symptoms	"{""Biological_Processes"": [""MESH:heuristic""]}"		MESH:D017496			
+Immunity	Immune_Response	Biological_Processes|Immune_Response	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0006955				
+JNK cascade	Signal_Transduction	Biological_Processes|Signal_Transduction	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0007254				
+Lipogenesis	Carbohydrate_Lipid_Metabolism	Biological_Processes|Carbohydrate_Lipid_Metabolism	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0008610				
+Long-Term Potentiation	General_Biological_Processes	Biological_Processes|General_Biological_Processes	"{""Biological_Processes"": [""MESH:heuristic""]}"		MESH:D017774			
+MAPK cascade	Signal_Transduction	Biological_Processes|Signal_Transduction	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0000165				
+Macular Degeneration	Neurological_Disorders	Biological_Processes|Neurological_Disorders	"{""Biological_Processes"": [""MESH:heuristic""]}"		MESH:D008268			
+"Membrane Potential, Mitochondrial"	Energy_Mitochondrial	Biological_Processes|Energy_Mitochondrial	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0051881				
+Metaplasia	General_Biological_Processes	Biological_Processes|General_Biological_Processes	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0036074				
+Movement	Cell_Movement_Adhesion	Biological_Processes|Cell_Movement_Adhesion	"{""Biological_Processes"": [""MESH:heuristic""]}"		MESH:D009068			
+"Multiple Sclerosis, Relapsing-Remitting"	Autoimmune_Inflammatory	Autoimmune_Inflammatory|Biological_Processes	"{""Biological_Processes"": [""MESH:heuristic""]}"		MESH:D020529			
+Mutation	DNA_Chromatin_Processes	Biological_Processes|DNA_Chromatin_Processes	"{""Biological_Processes"": [""MESH:heuristic""]}"		MESH:D009154			
+Myocardial Infarction	Cardiovascular_Diseases	Biological_Processes|Cardiovascular_Diseases	"{""Biological_Processes"": [""MESH:heuristic""]}"		MESH:D009203			
+NLRP3 inflammasome complex assembly	Immune_Response	Biological_Processes|Immune_Response	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0044546				
+Necrosis	Cell_Death_Survival	Biological_Processes|Cell_Death_Survival	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0070265				
+Nerve Degeneration	Neurological_Disorders	Biological_Processes|Neurological_Disorders	"{""Biological_Processes"": [""MESH:heuristic""]}"		MESH:D009410			
+Neurogenic Inflammation	Autoimmune_Inflammatory	Autoimmune_Inflammatory|Biological_Processes	"{""Biological_Processes"": [""MESH:heuristic""]}"		MESH:D020078			
+Neuroprotection	General_Biological_Processes	Biological_Processes|General_Biological_Processes	"{""Biological_Processes"": [""MESH:heuristic""]}"		MESH:D000066829			
+Neutrophil Infiltration	Immune_Response	Biological_Processes|Immune_Response	"{""Biological_Processes"": [""MESH:heuristic""]}"		MESH:D020556			
+Organelle Biogenesis	General_Biological_Processes	Biological_Processes|General_Biological_Processes	"{""Biological_Processes"": [""MESH:heuristic""]}"		MESH:D001678			
+Oxygen Consumption	Energy_Mitochondrial	Biological_Processes|Energy_Mitochondrial	"{""Biological_Processes"": [""MESH:heuristic""]}"		MESH:D010101			
+Paralysis	Clinical_Symptoms	Biological_Processes|Clinical_Symptoms	"{""Biological_Processes"": [""MESH:heuristic""]}"		MESH:D010243			
+Pituitary ACTH Hypersecretion	Hormones_Receptors	Biological_Processes|Hormones_Receptors	"{""Biological_Processes"": [""MESH:heuristic""]}"		MESH:D047748			
+Poisoning	General_Biological_Processes	Biological_Processes|General_Biological_Processes	"{""Biological_Processes"": [""MESH:heuristic""]}"		MESH:D011041			
+Protein Carbonylation	Post_Translational_Modifications	Biological_Processes|Post_Translational_Modifications	"{""Biological_Processes"": [""MESH:heuristic""]}"		MESH:D050050			
+Pruritus	Clinical_Symptoms	Biological_Processes|Clinical_Symptoms	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0160025				
+RIG-I signaling pathway	Immune_Response	Biological_Processes|Immune_Response	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0039529				
+RNA biosynthetic process	RNA_Transcription	Biological_Processes|RNA_Transcription	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0032774				
+RNA catabolic process	RNA_Transcription	Biological_Processes|RNA_Transcription	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0006401				
+RNA processing	RNA_Transcription	Biological_Processes|RNA_Transcription	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0006396				
+RNA splicing	RNA_Transcription	Biological_Processes|RNA_Transcription	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0008380				
+RNA transport	RNA_Transcription	Biological_Processes|RNA_Transcription	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0050658				
+"Radiation, Ionizing"	Stress_Response	Biological_Processes|Stress_Response	"{""Biological_Processes"": [""MESH:heuristic""]}"		MESH:D011839			
+Recovery of Function	Tissue_Remodeling	Biological_Processes|Tissue_Remodeling	"{""Biological_Processes"": [""MESH:heuristic""]}"		MESH:D020127			
+Renin-Angiotensin System	Signal_Transduction	Biological_Processes|Signal_Transduction	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0002016				
+Retinal Degeneration	Neurological_Disorders	Biological_Processes|Neurological_Disorders	"{""Biological_Processes"": [""MESH:heuristic""]}"		MESH:D012162			
+S phase	Cell_Cycle_Division	Biological_Processes|Cell_Cycle_Division	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0051320				
+SNARE complex assembly	Cellular_Transport	Biological_Processes|Cellular_Transport	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0035493				
+"Sarcoma, Ewing"	Cancer_and_Neoplasms	Biological_Processes|Cancer_and_Neoplasms	"{""Biological_Processes"": [""MESH:heuristic""]}"		MESH:D012512			
+Schwann cell migration	Cell_Movement_Adhesion	Biological_Processes|Cell_Movement_Adhesion	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0036135				
+Secretory Pathway	Signal_Transduction	Biological_Processes|Signal_Transduction	"{""Biological_Processes"": [""MESH:heuristic""]}"		MESH:D055571			
+"Spondylitis, Ankylosing"	Autoimmune_Inflammatory	Autoimmune_Inflammatory|Biological_Processes	"{""Biological_Processes"": [""MESH:heuristic""]}"		MESH:D013167			
+Starvation	Stress_Response	Biological_Processes|Stress_Response	"{""Biological_Processes"": [""MESH:heuristic""]}"		MESH:D013217			
+Synaptic Transmission	General_Biological_Processes	Biological_Processes|General_Biological_Processes	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0007268				
+T cell activation	Immune_Response	Biological_Processes|Immune_Response	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0042110				
+T cell anergy	Immune_Response	Biological_Processes|Immune_Response	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0002870				
+T cell differentiation	Cell_Differentiation_Development	Biological_Processes|Cell_Differentiation_Development	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0030217				
+T cell homeostasis	Immune_Response	Biological_Processes|Immune_Response	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0043029				
+T cell proliferation	Cell_Growth_Proliferation	Biological_Processes|Cell_Growth_Proliferation	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0042098				
+Thermogenesis	Energy_Mitochondrial	Biological_Processes|Energy_Mitochondrial	"{""Biological_Processes"": [""MESH:heuristic""]}"		MESH:D022722			
+Ubiquitination	Post_Translational_Modifications	Biological_Processes|Post_Translational_Modifications	"{""Biological_Processes"": [""MESH:heuristic""]}"		MESH:D054875			
+Unfolded Protein Response	Stress_Response	Biological_Processes|Stress_Response	"{""Biological_Processes"": [""MESH:heuristic""]}"		MESH:D056811			
+Virus Replication	General_Biological_Processes	Biological_Processes|General_Biological_Processes	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0019058				
+Wnt signaling pathway	Signal_Transduction	Biological_Processes|Signal_Transduction	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0016055				
+"Wnt signaling pathway, planar cell polarity pathway"	Signal_Transduction	Biological_Processes|Signal_Transduction	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0060071				
+acrosome reaction	General_Biological_Processes	Biological_Processes|General_Biological_Processes	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0007340				
+actin crosslink formation	General_Biological_Processes	Biological_Processes|General_Biological_Processes	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0051764				
+actin filament depolymerization	General_Biological_Processes	Biological_Processes|General_Biological_Processes	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0030042				
+actin filament polymerization	General_Biological_Processes	Biological_Processes|General_Biological_Processes	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0030041				
+actin filament severing	General_Biological_Processes	Biological_Processes|General_Biological_Processes	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0051014				
+actin nucleation	General_Biological_Processes	Biological_Processes|General_Biological_Processes	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0045010				
+action potential	General_Biological_Processes	Biological_Processes|General_Biological_Processes	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0001508				
+action potential initiation	General_Biological_Processes	Biological_Processes|General_Biological_Processes	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0099610				
+activation of cysteine-type endopeptidase activity involved in apoptotic process	Cell_Death_Survival	Biological_Processes|Cell_Death_Survival	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0006919				
+acute inflammatory response	Immune_Response	Biological_Processes|Immune_Response	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0002526				
+adaptive immune response	Immune_Response	Biological_Processes|Immune_Response	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0002250				
+aerobic respiration	Energy_Mitochondrial	Biological_Processes|Energy_Mitochondrial	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0009060				
+aggrephagy	General_Biological_Processes	Biological_Processes|General_Biological_Processes	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0035973				
+aggressive behavior	General_Biological_Processes	Biological_Processes|General_Biological_Processes	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0002118				
+amylase secretion	Cellular_Transport	Biological_Processes|Cellular_Transport	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0036394				
+amyloid precursor protein metabolic process	General_Biological_Processes	Biological_Processes|General_Biological_Processes	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0042982				
+amyloid-beta formation	General_Biological_Processes	Biological_Processes|General_Biological_Processes	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0034205				
+anagen	General_Biological_Processes	Biological_Processes|General_Biological_Processes	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0042640				
+anaphase	Cell_Cycle_Division	Biological_Processes|Cell_Cycle_Division	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0051322				
+anatomical structure morphogenesis	Cell_Differentiation_Development	Biological_Processes|Cell_Differentiation_Development	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0009653				
+angiogenesis	Tissue_Remodeling	Biological_Processes|Tissue_Remodeling	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0001525				
+anion transport	Cellular_Transport	Biological_Processes|Cellular_Transport	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0006820				
+anoikis	Cell_Death_Survival	Biological_Processes|Cell_Death_Survival	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0043276				
+anterograde axonal protein transport	Cellular_Transport	Biological_Processes|Cellular_Transport	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0099641				
+anterograde axonal transport	Cellular_Transport	Biological_Processes|Cellular_Transport	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0008089				
+antigen processing and presentation	Immune_Response	Biological_Processes|Immune_Response	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0019882				
+antiviral innate immune response	Immune_Response	Biological_Processes|Immune_Response	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0140374				
+apoptotic process	Cell_Death_Survival	Biological_Processes|Cell_Death_Survival	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0006915				
+apoptotic signaling pathway	Cell_Death_Survival	Biological_Processes|Cell_Death_Survival	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0097190				
+astrocyte activation	Immune_Response	Biological_Processes|Immune_Response	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0048143				
+autocrine signaling	Signal_Transduction	Biological_Processes|Signal_Transduction	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0035425				
+autophagic cell death	Cell_Death_Survival	Biological_Processes|Cell_Death_Survival	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0048102				
+autophagosome assembly	Cell_Death_Survival	Biological_Processes|Cell_Death_Survival	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0000045				
+autophagosome maturation	Cell_Death_Survival	Biological_Processes|Cell_Death_Survival	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0097352				
+autophagy	Cell_Death_Survival	Biological_Processes|Cell_Death_Survival	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0006914				
+autophagy of mitochondrion	Cell_Death_Survival	Biological_Processes|Cell_Death_Survival	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0000422				
+axon extension	Cell_Movement_Adhesion	Biological_Processes|Cell_Movement_Adhesion	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0048675				
+axon guidance	Cell_Movement_Adhesion	Biological_Processes|Cell_Movement_Adhesion	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0007411				
+axon regeneration	Cell_Movement_Adhesion	Biological_Processes|Cell_Movement_Adhesion	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0031103				
+axonal transport	Cellular_Transport	Biological_Processes|Cellular_Transport	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0098930				
+base-excision repair	DNA_Chromatin_Processes	Biological_Processes|DNA_Chromatin_Processes	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0006284				
+biofilm formation	General_Biological_Processes	Biological_Processes|General_Biological_Processes	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0042710				
+biomineralization	General_Biological_Processes	Biological_Processes|General_Biological_Processes	"{""Biological_Processes"": [""MESH:heuristic""]}"		MESH:D000077320			
+biosynthetic process	General_Biological_Processes	Biological_Processes|General_Biological_Processes	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0009058				
+bone growth	Organ_System_Processes	Biological_Processes|Organ_System_Processes	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0098868				
+bone regeneration	Tissue_Remodeling	Biological_Processes|Tissue_Remodeling	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:1990523				
+bone remodeling	Tissue_Remodeling	Biological_Processes|Tissue_Remodeling	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0046849				
+bone resorption	Tissue_Remodeling	Biological_Processes|Tissue_Remodeling	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0045453				
+brain development	Cell_Differentiation_Development	Biological_Processes|Cell_Differentiation_Development	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0007420				
+branching morphogenesis of an epithelial tube	Cell_Differentiation_Development	Biological_Processes|Cell_Differentiation_Development	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0048754				
+cAMP catabolic process	General_Biological_Processes	Biological_Processes|General_Biological_Processes	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0006198				
+cAMP-mediated signaling	Signal_Transduction	Biological_Processes|Signal_Transduction	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0019933				
+calcium ion import	Cellular_Transport	Biological_Processes|Cellular_Transport	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0070509				
+calcium-mediated signaling	Signal_Transduction	Biological_Processes|Signal_Transduction	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0019722				
+canonical Wnt signaling pathway	Signal_Transduction	Biological_Processes|Signal_Transduction	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0060070				
+cardiac endothelial to mesenchymal transition	Cell_Differentiation_Development	Biological_Processes|Cell_Differentiation_Development	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0140074				
+cardiac muscle cell proliferation	Cell_Growth_Proliferation	Biological_Processes|Cell_Growth_Proliferation	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0060038				
+cartilage development	Cell_Differentiation_Development	Biological_Processes|Cell_Differentiation_Development	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0051216				
+catabolic process	General_Biological_Processes	Biological_Processes|General_Biological_Processes	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0009056				
+cell activation	General_Biological_Processes	Biological_Processes|General_Biological_Processes	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0001775				
+cell adhesion	Cell_Movement_Adhesion	Biological_Processes|Cell_Movement_Adhesion	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0007155				
+cell communication	Signal_Transduction	Biological_Processes|Signal_Transduction	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0007154				
+cell cycle	Cell_Cycle_Division	Biological_Processes|Cell_Cycle_Division	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0007049				
+cell death	Cell_Death_Survival	Biological_Processes|Cell_Death_Survival	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0008219				
+cell development	Cell_Differentiation_Development	Biological_Processes|Cell_Differentiation_Development	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0048468				
+cell differentiation	Cell_Differentiation_Development	Biological_Processes|Cell_Differentiation_Development	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0030154				
+cell division	Cell_Cycle_Division	Biological_Processes|Cell_Cycle_Division	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0051301				
+cell growth	Cell_Growth_Proliferation	Biological_Processes|Cell_Growth_Proliferation	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0016049				
+cell killing	General_Biological_Processes	Biological_Processes|General_Biological_Processes	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0001906				
+cell migration	Cell_Movement_Adhesion	Biological_Processes|Cell_Movement_Adhesion	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0016477				
+cell motility	Cell_Movement_Adhesion	Biological_Processes|Cell_Movement_Adhesion	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0048870				
+cell population proliferation	Cell_Growth_Proliferation	Biological_Processes|Cell_Growth_Proliferation	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0008283				
+cell quiescence	General_Biological_Processes	Biological_Processes|General_Biological_Processes	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0044838				
+cell-cell adhesion	Cell_Movement_Adhesion	Biological_Processes|Cell_Movement_Adhesion	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0098609				
+cell-matrix adhesion	Cell_Movement_Adhesion	Biological_Processes|Cell_Movement_Adhesion	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0007160				
+cellular component biogenesis	General_Biological_Processes	Biological_Processes|General_Biological_Processes	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0044085				
+cellular defense response	Immune_Response	Biological_Processes|Immune_Response	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0006968				
+cellular homeostasis	Homeostasis_Regulation	Biological_Processes|Homeostasis_Regulation	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0019725				
+cellular metabolic process	General_Biological_Processes	Biological_Processes|General_Biological_Processes	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0044237				
+cellular process	General_Biological_Processes	Biological_Processes|General_Biological_Processes	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0009987				
+cellular response to 1-oleoyl-sn-glycerol 3-phosphate	General_Biological_Processes	Biological_Processes|General_Biological_Processes	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:1904566				
+cellular response to DNA damage stimulus	DNA_Chromatin_Processes	Biological_Processes|DNA_Chromatin_Processes	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0006974				
+cellular senescence	Cell_Death_Survival	Biological_Processes|Cell_Death_Survival	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0090398				
+chaperone-mediated autophagy	Protein_Synthesis_Degradation	Biological_Processes|Protein_Synthesis_Degradation	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0061684				
+chemical synaptic transmission	General_Biological_Processes	Biological_Processes|General_Biological_Processes	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0007268				
+chemokine (C-X-C motif) ligand 9 production	Immune_Response	Biological_Processes|Immune_Response	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0035393				
+chemokine production	Immune_Response	Biological_Processes|Immune_Response	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0032602				
+chemotaxis	Cell_Movement_Adhesion	Biological_Processes|Cell_Movement_Adhesion	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0006935				
+cholesterol biosynthetic process	Carbohydrate_Lipid_Metabolism	Biological_Processes|Carbohydrate_Lipid_Metabolism	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0006695				
+cholesterol efflux	Carbohydrate_Lipid_Metabolism	Biological_Processes|Carbohydrate_Lipid_Metabolism	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0033344				
+cholesterol transport	Carbohydrate_Lipid_Metabolism	Biological_Processes|Carbohydrate_Lipid_Metabolism	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0030301				
+chondrocyte hypertrophy	Cell_Differentiation_Development	Biological_Processes|Cell_Differentiation_Development	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0003415				
+chondrocyte proliferation	Cell_Growth_Proliferation	Biological_Processes|Cell_Growth_Proliferation	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0035988				
+chromatin remodeling	DNA_Chromatin_Processes	Biological_Processes|DNA_Chromatin_Processes	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0006338				
+chromosome breakage	DNA_Chromatin_Processes	Biological_Processes|DNA_Chromatin_Processes	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0031052				
+chromosome segregation	Cell_Cycle_Division	Biological_Processes|Cell_Cycle_Division	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0007059				
+chromosome separation	Cell_Cycle_Division	Biological_Processes|Cell_Cycle_Division	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0051304				
+cilium assembly	General_Biological_Processes	Biological_Processes|General_Biological_Processes	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0060271				
+circadian rhythm	General_Biological_Processes	Biological_Processes|General_Biological_Processes	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0007623				
+clathrin-dependent endocytosis	Cellular_Transport	Biological_Processes|Cellular_Transport	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0072583				
+coagulation	General_Biological_Processes	Biological_Processes|General_Biological_Processes	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0050817				
+cognition	General_Biological_Processes	Biological_Processes|General_Biological_Processes	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0050890				
+conditioned place preference	General_Biological_Processes	Biological_Processes|General_Biological_Processes	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:1990708				
+contact inhibition	Cell_Growth_Proliferation	Biological_Processes|Cell_Growth_Proliferation	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0060242				
+cristae formation	Energy_Mitochondrial	Biological_Processes|Energy_Mitochondrial	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0042407				
+cysteine biosynthetic process	Amino_Acid_Metabolism	Amino_Acid_Metabolism|Biological_Processes	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0019344				
+cytokine production	Immune_Response	Biological_Processes|Immune_Response	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0001816				
+cytokine production involved in inflammatory response	Immune_Response	Biological_Processes|Immune_Response	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0002534				
+cytokinesis	Cell_Cycle_Division	Biological_Processes|Cell_Cycle_Division	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0000910				
+cytoskeleton organization	General_Biological_Processes	Biological_Processes|General_Biological_Processes	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0007010				
+de novo centriole assembly involved in multi-ciliated epithelial cell differentiation	Cell_Differentiation_Development	Biological_Processes|Cell_Differentiation_Development	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0098535				
+death-inducing signaling complex assembly	Cell_Death_Survival	Biological_Processes|Cell_Death_Survival	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0071550				
+dedifferentiation	Cell_Differentiation_Development	Biological_Processes|Cell_Differentiation_Development	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0043696				
+defense response to virus	Immune_Response	Biological_Processes|Immune_Response	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0051607				
+definitive hemopoiesis	Cell_Differentiation_Development	Biological_Processes|Cell_Differentiation_Development	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0060216				
+demethylation	Post_Translational_Modifications	Biological_Processes|Post_Translational_Modifications	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0070988				
+dendrite arborization	General_Biological_Processes	Biological_Processes|General_Biological_Processes	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0140059				
+dendrite extension	General_Biological_Processes	Biological_Processes|General_Biological_Processes	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0097484				
+developmental process	Cell_Differentiation_Development	Biological_Processes|Cell_Differentiation_Development	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0032502				
+diapedesis	Cell_Movement_Adhesion	Biological_Processes|Cell_Movement_Adhesion	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0050904				
+dorsal spinal cord development	Cell_Differentiation_Development	Biological_Processes|Cell_Differentiation_Development	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0021516				
+double-strand break repair	DNA_Chromatin_Processes	Biological_Processes|DNA_Chromatin_Processes	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0006302				
+double-strand break repair via homologous recombination	DNA_Chromatin_Processes	Biological_Processes|DNA_Chromatin_Processes	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0000724				
+double-strand break repair via nonhomologous end joining	DNA_Chromatin_Processes	Biological_Processes|DNA_Chromatin_Processes	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0006303				
+electron transport chain	Energy_Mitochondrial	Biological_Processes|Energy_Mitochondrial	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0022900				
+embryo development	Cell_Differentiation_Development	Biological_Processes|Cell_Differentiation_Development	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0009790				
+endocytic recycling	Cellular_Transport	Biological_Processes|Cellular_Transport	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0032456				
+endocytosis	Cellular_Transport	Biological_Processes|Cellular_Transport	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0006897				
+endosomal transport	Cellular_Transport	Biological_Processes|Cellular_Transport	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0016197				
+endothelial cell migration	Cell_Movement_Adhesion	Biological_Processes|Cell_Movement_Adhesion	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0043542				
+endothelial cell proliferation	Cell_Growth_Proliferation	Biological_Processes|Cell_Growth_Proliferation	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0001935				
+energy homeostasis	Homeostasis_Regulation	Biological_Processes|Homeostasis_Regulation	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0097009				
+epidermal growth factor receptor signaling pathway	Signal_Transduction	Biological_Processes|Signal_Transduction	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0007173				
+epithelial to mesenchymal transition	Cell_Differentiation_Development	Biological_Processes|Cell_Differentiation_Development	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0001837				
+erythrocyte differentiation	Cell_Differentiation_Development	Biological_Processes|Cell_Differentiation_Development	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0030218				
+establishment of cell polarity	General_Biological_Processes	Biological_Processes|General_Biological_Processes	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0030010				
+establishment or maintenance of cell polarity	General_Biological_Processes	Biological_Processes|General_Biological_Processes	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0007163				
+evasion of host immune response	Immune_Response	Biological_Processes|Immune_Response	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0042783				
+execution phase of necroptosis	Cell_Death_Survival	Biological_Processes|Cell_Death_Survival	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0097528				
+exit from mitosis	Cell_Cycle_Division	Biological_Processes|Cell_Cycle_Division	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0010458				
+exocytosis	Cellular_Transport	Biological_Processes|Cellular_Transport	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0006887				
+extracellular exosome biogenesis	Cellular_Transport	Biological_Processes|Cellular_Transport	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0097734				
+fat cell differentiation	Cell_Differentiation_Development	Biological_Processes|Cell_Differentiation_Development	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0045444				
+fatty acid biosynthetic process	Carbohydrate_Lipid_Metabolism	Biological_Processes|Carbohydrate_Lipid_Metabolism	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0006633				
+fatty acid catabolic process	Carbohydrate_Lipid_Metabolism	Biological_Processes|Carbohydrate_Lipid_Metabolism	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0009062				
+fatty acid oxidation	Carbohydrate_Lipid_Metabolism	Biological_Processes|Carbohydrate_Lipid_Metabolism	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0019395				
+ferroptosis	Cell_Death_Survival	Biological_Processes|Cell_Death_Survival	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0097707				
+fibroblast growth factor receptor signaling pathway	Signal_Transduction	Biological_Processes|Signal_Transduction	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0008543				
+filopodium assembly	General_Biological_Processes	Biological_Processes|General_Biological_Processes	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0046847				
+focal adhesion assembly	Cell_Movement_Adhesion	Biological_Processes|Cell_Movement_Adhesion	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0048041				
+gamma-aminobutyric acid reuptake	Cellular_Transport	Biological_Processes|Cellular_Transport	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0051936				
+gastrulation	Cell_Differentiation_Development	Biological_Processes|Cell_Differentiation_Development	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0007369				
+gene expression	RNA_Transcription	Biological_Processes|RNA_Transcription	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0010467				
+generation of precursor metabolites and energy	Energy_Mitochondrial	Biological_Processes|Energy_Mitochondrial	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0006091				
+glial cell differentiation	Cell_Differentiation_Development	Biological_Processes|Cell_Differentiation_Development	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0010001				
+global genome nucleotide-excision repair	DNA_Chromatin_Processes	Biological_Processes|DNA_Chromatin_Processes	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0070911				
+gluconeogenesis	Carbohydrate_Lipid_Metabolism	Biological_Processes|Carbohydrate_Lipid_Metabolism	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0006094				
+glucose homeostasis	Homeostasis_Regulation	Biological_Processes|Homeostasis_Regulation	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0042593				
+glucose import	Cellular_Transport	Biological_Processes|Cellular_Transport	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0046323				
+glucose metabolic process	Carbohydrate_Lipid_Metabolism	Biological_Processes|Carbohydrate_Lipid_Metabolism	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0006006				
+glucose transmembrane transport	Cellular_Transport	Biological_Processes|Cellular_Transport	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:1904659				
+glutathione biosynthetic process	Amino_Acid_Metabolism	Amino_Acid_Metabolism|Biological_Processes	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0006750				
+glycogen metabolic process	Carbohydrate_Lipid_Metabolism	Biological_Processes|Carbohydrate_Lipid_Metabolism	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0005977				
+glycolytic process	Carbohydrate_Lipid_Metabolism	Biological_Processes|Carbohydrate_Lipid_Metabolism	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0006096				
+glycophagy	General_Biological_Processes	Biological_Processes|General_Biological_Processes	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0061723				
+granuloma formation	General_Biological_Processes	Biological_Processes|General_Biological_Processes	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0002432				
+growth	Cell_Growth_Proliferation	Biological_Processes|Cell_Growth_Proliferation	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0040007				
+heart contraction	Organ_System_Processes	Biological_Processes|Organ_System_Processes	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0060047				
+heart development	Cell_Differentiation_Development	Biological_Processes|Cell_Differentiation_Development	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0007507				
+heme biosynthetic process	Amino_Acid_Metabolism	Biological_Processes|Amino_Acid_Metabolism	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0006783				
+hemopoiesis	Cell_Differentiation_Development	Biological_Processes|Cell_Differentiation_Development	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0030097				
+hemostasis	General_Biological_Processes	Biological_Processes|General_Biological_Processes	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0007599				
+hepatocyte differentiation	Cell_Differentiation_Development	Biological_Processes|Cell_Differentiation_Development	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0070365				
+hippo signaling	Signal_Transduction	Biological_Processes|Signal_Transduction	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0035329				
+homeostatic process	Homeostasis_Regulation	Biological_Processes|Homeostasis_Regulation	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0042592				
+homologous recombination	DNA_Chromatin_Processes	Biological_Processes|DNA_Chromatin_Processes	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0035825				
+hypersensitivity	Immune_Response	Biological_Processes|Immune_Response	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0002524				
+immune response	Immune_Response	Biological_Processes|Immune_Response	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0006955				
+import into nucleus	Cellular_Transport	Biological_Processes|Cellular_Transport	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0051170				
+inflammatory response	Immune_Response	Biological_Processes|Immune_Response	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0006954				
+innate immune response	Immune_Response	Biological_Processes|Immune_Response	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0045087				
+insulin secretion	Hormones_Receptors	Biological_Processes|Hormones_Receptors	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0030073				
+integrin activation	Cell_Movement_Adhesion	Biological_Processes|Cell_Movement_Adhesion	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0033622				
+interferon-beta production	Immune_Response	Biological_Processes|Immune_Response	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0032608				
+interleukin-18 production	Immune_Response	Biological_Processes|Immune_Response	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0032621				
+interleukin-6 production	Immune_Response	Biological_Processes|Immune_Response	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0032635				
+interleukin-8 production	Immune_Response	Biological_Processes|Immune_Response	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0032637				
+interstrand cross-link repair	DNA_Chromatin_Processes	Biological_Processes|DNA_Chromatin_Processes	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0036297				
+intrinsic apoptotic signaling pathway	Cell_Death_Survival	Biological_Processes|Cell_Death_Survival	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0097193				
+invasive filamentous growth	Cell_Movement_Adhesion	Biological_Processes|Cell_Movement_Adhesion	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0036267				
+ion transport	Cellular_Transport	Biological_Processes|Cellular_Transport	"{""Biological_Processes"": [""MESH:heuristic""]}"		MESH:D017136			
+isotype switching	Immune_Response	Biological_Processes|Immune_Response	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0045190				
+keratinocyte differentiation	Cell_Differentiation_Development	Biological_Processes|Cell_Differentiation_Development	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0030216				
+keratinocyte proliferation	Cell_Growth_Proliferation	Biological_Processes|Cell_Growth_Proliferation	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0043616				
+lactation	General_Biological_Processes	Biological_Processes|General_Biological_Processes	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0007595				
+lactic acid secretion	Cellular_Transport	Biological_Processes|Cellular_Transport	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0046722				
+larval development	Cell_Differentiation_Development	Biological_Processes|Cell_Differentiation_Development	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0002164				
+late endosomal microautophagy	General_Biological_Processes	Biological_Processes|General_Biological_Processes	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0061738				
+learning	General_Biological_Processes	Biological_Processes|General_Biological_Processes	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0007612				
+leukocyte chemotaxis	Cell_Movement_Adhesion	Biological_Processes|Cell_Movement_Adhesion	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0030595				
+lipid biosynthetic process	Carbohydrate_Lipid_Metabolism	Biological_Processes|Carbohydrate_Lipid_Metabolism	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0008610				
+lipid catabolic process	Carbohydrate_Lipid_Metabolism	Biological_Processes|Carbohydrate_Lipid_Metabolism	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0016042				
+lipid homeostasis	Homeostasis_Regulation	Biological_Processes|Homeostasis_Regulation	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0055088				
+lipid metabolic process	Carbohydrate_Lipid_Metabolism	Biological_Processes|Carbohydrate_Lipid_Metabolism	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0006629				
+lipid storage	Carbohydrate_Lipid_Metabolism	Biological_Processes|Carbohydrate_Lipid_Metabolism	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0019915				
+liver regeneration	Tissue_Remodeling	Biological_Processes|Tissue_Remodeling	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0097421				
+localization	Cellular_Transport	Biological_Processes|Cellular_Transport	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0051179				
+locomotion	Cell_Movement_Adhesion	Biological_Processes|Cell_Movement_Adhesion	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0040011				
+long-term memory	General_Biological_Processes	Biological_Processes|General_Biological_Processes	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0007616				
+long-term synaptic depression	General_Biological_Processes	Biological_Processes|General_Biological_Processes	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0060292				
+long-term synaptic potentiation	General_Biological_Processes	Biological_Processes|General_Biological_Processes	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0060291				
+lymphocyte migration	Cell_Movement_Adhesion	Biological_Processes|Cell_Movement_Adhesion	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0072676				
+lysosomal lumen pH elevation	Homeostasis_Regulation	Biological_Processes|Homeostasis_Regulation	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0035752				
+lysosomal protein catabolic process	Protein_Synthesis_Degradation	Biological_Processes|Protein_Synthesis_Degradation	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:1905146				
+mRNA catabolic process	RNA_Transcription	Biological_Processes|RNA_Transcription	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0006402				
+mRNA transcription	RNA_Transcription	Biological_Processes|RNA_Transcription	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0009299				
+macroautophagy	Cell_Death_Survival	Biological_Processes|Cell_Death_Survival	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0016236				
+macrophage activation	Immune_Response	Biological_Processes|Immune_Response	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0042116				
+macrophage apoptotic process	Cell_Death_Survival	Biological_Processes|Cell_Death_Survival	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0071888				
+macropinocytosis	Cellular_Transport	Biological_Processes|Cellular_Transport	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0044351				
+maintenance of synapse structure	General_Biological_Processes	Biological_Processes|General_Biological_Processes	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0099558				
+mammary gland development	Cell_Differentiation_Development	Biological_Processes|Cell_Differentiation_Development	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0030879				
+matrix metallopeptidase secretion	Cellular_Transport	Biological_Processes|Cellular_Transport	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:1990773				
+meiotic cell cycle	Cell_Cycle_Division	Biological_Processes|Cell_Cycle_Division	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0051321				
+meiotic spindle assembly checkpoint	Cell_Cycle_Division	Biological_Processes|Cell_Cycle_Division	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0033316				
+melanin biosynthetic process	Carbohydrate_Lipid_Metabolism	Biological_Processes|Carbohydrate_Lipid_Metabolism	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0042438				
+melanocyte differentiation	Cell_Differentiation_Development	Biological_Processes|Cell_Differentiation_Development	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0030318				
+melanocyte proliferation	Cell_Growth_Proliferation	Biological_Processes|Cell_Growth_Proliferation	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0097325				
+membrane fusion	General_Biological_Processes	Biological_Processes|General_Biological_Processes	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0061025				
+memory	General_Biological_Processes	Biological_Processes|General_Biological_Processes	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0007613				
+mesenchymal to epithelial transition	Cell_Differentiation_Development	Biological_Processes|Cell_Differentiation_Development	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0060231				
+metabolic process	General_Biological_Processes	Biological_Processes|General_Biological_Processes	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0008152				
+metaphase	Cell_Cycle_Division	Biological_Processes|Cell_Cycle_Division	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0051323				
+metaplastic ossification	General_Biological_Processes	Biological_Processes|General_Biological_Processes	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0036074				
+methylation	Post_Translational_Modifications	Biological_Processes|Post_Translational_Modifications	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0032259				
+microglial cell activation	Immune_Response	Biological_Processes|Immune_Response	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0001774				
+microtubule bundle formation	General_Biological_Processes	Biological_Processes|General_Biological_Processes	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0001578				
+microtubule cytoskeleton organization	General_Biological_Processes	Biological_Processes|General_Biological_Processes	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0000226				
+microtubule depolymerization	General_Biological_Processes	Biological_Processes|General_Biological_Processes	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0007019				
+microtubule polymerization	General_Biological_Processes	Biological_Processes|General_Biological_Processes	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0046785				
+microtubule severing	General_Biological_Processes	Biological_Processes|General_Biological_Processes	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0051013				
+mitochondrial depolarization	Energy_Mitochondrial	Biological_Processes|Energy_Mitochondrial	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0051882				
+mitochondrial fission	Energy_Mitochondrial	Biological_Processes|Energy_Mitochondrial	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0000266				
+mitochondrial fragmentation involved in apoptotic process	Cell_Death_Survival	Biological_Processes|Cell_Death_Survival	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0043653				
+mitochondrial fusion	Energy_Mitochondrial	Biological_Processes|Energy_Mitochondrial	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0008053				
+mitochondrial inner membrane fusion	Energy_Mitochondrial	Biological_Processes|Energy_Mitochondrial	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:1990627				
+mitochondrial outer membrane permeabilization	Energy_Mitochondrial	Biological_Processes|Energy_Mitochondrial	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0097345				
+mitochondrial transcription	RNA_Transcription	Biological_Processes|RNA_Transcription	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0006390				
+mitochondrial translation	Protein_Synthesis_Degradation	Biological_Processes|Protein_Synthesis_Degradation	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0032543				
+mitochondrial transport	Energy_Mitochondrial	Biological_Processes|Energy_Mitochondrial	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0006839				
+mitochondrion distribution	Energy_Mitochondrial	Biological_Processes|Energy_Mitochondrial	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0048311				
+mitochondrion localization	Energy_Mitochondrial	Biological_Processes|Energy_Mitochondrial	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0051646				
+mitophagy	Cell_Death_Survival	Biological_Processes|Cell_Death_Survival	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0000423				
+mitotic G2/M transition checkpoint	Cell_Cycle_Division	Biological_Processes|Cell_Cycle_Division	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0044818				
+mitotic cell cycle	Cell_Cycle_Division	Biological_Processes|Cell_Cycle_Division	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0000278				
+monocyte chemotactic protein-1 production	Immune_Response	Biological_Processes|Immune_Response	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0071605				
+monocyte differentiation	Cell_Differentiation_Development	Biological_Processes|Cell_Differentiation_Development	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0030224				
+mucociliary clearance	Organ_System_Processes	Biological_Processes|Organ_System_Processes	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0120197				
+muscle atrophy	Tissue_Remodeling	Biological_Processes|Tissue_Remodeling	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0014889				
+muscle cell differentiation	Cell_Differentiation_Development	Biological_Processes|Cell_Differentiation_Development	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0042692				
+muscle contraction	Organ_System_Processes	Biological_Processes|Organ_System_Processes	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0006936				
+muscle hypertrophy	Cell_Growth_Proliferation	Biological_Processes|Cell_Growth_Proliferation	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0014896				
+myelination	Organ_System_Processes	Biological_Processes|Organ_System_Processes	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0042552				
+myoblast differentiation	Cell_Differentiation_Development	Biological_Processes|Cell_Differentiation_Development	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0045445				
+myoblast proliferation	Cell_Growth_Proliferation	Biological_Processes|Cell_Growth_Proliferation	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0051450				
+necroptotic process	Cell_Death_Survival	Biological_Processes|Cell_Death_Survival	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0070266				
+necrotic cell death	Cell_Death_Survival	Biological_Processes|Cell_Death_Survival	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0008219				
+negative regulation of apoptotic process	Cell_Death_Survival	Biological_Processes|Cell_Death_Survival	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0043066				
+negative regulation of ubiquitin protein ligase activity	Protein_Synthesis_Degradation	Biological_Processes|Protein_Synthesis_Degradation	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:1904667				
+nervous system development	Cell_Differentiation_Development	Biological_Processes|Cell_Differentiation_Development	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0007399				
+neural precursor cell proliferation	Cell_Growth_Proliferation	Biological_Processes|Cell_Growth_Proliferation	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0061351				
+neurogenesis	Cell_Differentiation_Development	Biological_Processes|Cell_Differentiation_Development	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0022008				
+neuroinflammatory response	Immune_Response	Biological_Processes|Immune_Response	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0150076				
+neuron apoptotic process	Cell_Death_Survival	Biological_Processes|Cell_Death_Survival	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0051402				
+neuron cellular homeostasis	Homeostasis_Regulation	Biological_Processes|Homeostasis_Regulation	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0070050				
+neuron development	Cell_Differentiation_Development	Biological_Processes|Cell_Differentiation_Development	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0048666				
+neuron differentiation	Cell_Differentiation_Development	Biological_Processes|Cell_Differentiation_Development	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0030182				
+neuron migration	Cell_Movement_Adhesion	Biological_Processes|Cell_Movement_Adhesion	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0001764				
+neurotransmitter secretion	Cellular_Transport	Biological_Processes|Cellular_Transport	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0007269				
+neurotransmitter uptake	Cellular_Transport	Biological_Processes|Cellular_Transport	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0001504				
+nodal signaling pathway	Signal_Transduction	Biological_Processes|Signal_Transduction	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0038092				
+non-canonical Wnt signaling pathway	Signal_Transduction	Biological_Processes|Signal_Transduction	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0035567				
+nuclear export	Cellular_Transport	Biological_Processes|Cellular_Transport	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0051168				
+nuclear transport	Cellular_Transport	Biological_Processes|Cellular_Transport	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0051169				
+nucleosome assembly	DNA_Chromatin_Processes	Biological_Processes|DNA_Chromatin_Processes	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0006334				
+nucleotide biosynthetic process	DNA_Chromatin_Processes	Biological_Processes|DNA_Chromatin_Processes	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0009165				
+nucleotide-excision repair	DNA_Chromatin_Processes	Biological_Processes|DNA_Chromatin_Processes	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0006289				
+nucleus organization	General_Biological_Processes	Biological_Processes|General_Biological_Processes	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0006997				
+ossification	Organ_System_Processes	Biological_Processes|Organ_System_Processes	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0001503				
+osteoblast differentiation	Cell_Differentiation_Development	Biological_Processes|Cell_Differentiation_Development	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0001649				
+osteoblast proliferation	Cell_Growth_Proliferation	Biological_Processes|Cell_Growth_Proliferation	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0033687				
+osteoclast differentiation	Cell_Differentiation_Development	Biological_Processes|Cell_Differentiation_Development	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0030316				
+oxidative phosphorylation	Energy_Mitochondrial	Biological_Processes|Energy_Mitochondrial	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0006119				
+pH reduction	Homeostasis_Regulation	Biological_Processes|Homeostasis_Regulation	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0045851				
+pachytene	Cell_Cycle_Division	Biological_Processes|Cell_Cycle_Division	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0000239				
+paracrine signaling	Signal_Transduction	Biological_Processes|Signal_Transduction	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0038001				
+parathyroid hormone secretion	Hormones_Receptors	Biological_Processes|Hormones_Receptors	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0035898				
+parkin-mediated stimulation of mitophagy in response to mitochondrial depolarization	Energy_Mitochondrial	Biological_Processes|Energy_Mitochondrial	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0061734				
+pattern specification process	Cell_Differentiation_Development	Biological_Processes|Cell_Differentiation_Development	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0007389				
+pentose-phosphate shunt	Carbohydrate_Lipid_Metabolism	Biological_Processes|Carbohydrate_Lipid_Metabolism	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0006098				
+peptidyl-cysteine S-nitrosylation	Post_Translational_Modifications	Biological_Processes|Post_Translational_Modifications	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0018119				
+peptidyl-cysteine oxidation	Post_Translational_Modifications	Biological_Processes|Post_Translational_Modifications	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0018171				
+pexophagy	Cell_Death_Survival	Biological_Processes|Cell_Death_Survival	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0000425				
+phagocytosis	Immune_Response	Biological_Processes|Immune_Response	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0006909				
+phagosome acidification	Cellular_Transport	Biological_Processes|Cellular_Transport	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0090383				
+phagosome maturation	Cellular_Transport	Biological_Processes|Cellular_Transport	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0090382				
+phosphorylation	Post_Translational_Modifications	Biological_Processes|Post_Translational_Modifications	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0016310				
+photoprotection	General_Biological_Processes	Biological_Processes|General_Biological_Processes	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0010117				
+phototransduction	General_Biological_Processes	Biological_Processes|General_Biological_Processes	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0007602				
+pigmentation	Carbohydrate_Lipid_Metabolism	Biological_Processes|Carbohydrate_Lipid_Metabolism	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0043473				
+pinocytosis	Cellular_Transport	Biological_Processes|Cellular_Transport	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0006907				
+plasma cell differentiation	Cell_Differentiation_Development	Biological_Processes|Cell_Differentiation_Development	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0002317				
+platelet activation	General_Biological_Processes	Biological_Processes|General_Biological_Processes	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0030168				
+platelet aggregation	General_Biological_Processes	Biological_Processes|General_Biological_Processes	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0070527				
+pore complex assembly	Cellular_Transport	Biological_Processes|Cellular_Transport	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0046931				
+positive regulation of NF-kappaB transcription factor activity	Signal_Transduction	Biological_Processes|Signal_Transduction	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0051092				
+positive regulation of focal adhesion assembly	Cell_Movement_Adhesion	Biological_Processes|Cell_Movement_Adhesion	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0051894				
+positive regulation of microtubule depolymerization	General_Biological_Processes	Biological_Processes|General_Biological_Processes	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0031117				
+positive regulation of mitochondrial calcium ion concentration	Energy_Mitochondrial	Biological_Processes|Energy_Mitochondrial	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0051561				
+positive regulation of wound healing	Tissue_Remodeling	Biological_Processes|Tissue_Remodeling	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0090303				
+post-translational protein modification	Post_Translational_Modifications	Biological_Processes|Post_Translational_Modifications	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0043687				
+pre-miRNA processing	RNA_Transcription	Biological_Processes|RNA_Transcription	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0031054				
+prepulse inhibition	General_Biological_Processes	Biological_Processes|General_Biological_Processes	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0060134				
+primitive erythrocyte differentiation	Cell_Differentiation_Development	Biological_Processes|Cell_Differentiation_Development	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0060319				
+programmed cell death	Cell_Death_Survival	Biological_Processes|Cell_Death_Survival	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0012501				
+proteasomal protein catabolic process	Protein_Synthesis_Degradation	Biological_Processes|Protein_Synthesis_Degradation	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0010498				
+proteasome complex disassembly	Protein_Synthesis_Degradation	Biological_Processes|Protein_Synthesis_Degradation	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:1903009				
+proteasome-mediated ubiquitin-dependent protein catabolic process	Protein_Synthesis_Degradation	Biological_Processes|Protein_Synthesis_Degradation	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0043161				
+protein acetylation	Post_Translational_Modifications	Biological_Processes|Post_Translational_Modifications	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0006473				
+protein deubiquitination	Post_Translational_Modifications	Biological_Processes|Post_Translational_Modifications	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0016579				
+protein folding	Protein_Synthesis_Degradation	Biological_Processes|Protein_Synthesis_Degradation	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0006457				
+protein import	Cellular_Transport	Biological_Processes|Cellular_Transport	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0017038				
+protein import into mitochondrial matrix	Cellular_Transport	Biological_Processes|Cellular_Transport	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0030150				
+protein kinase B signaling	Signal_Transduction	Biological_Processes|Signal_Transduction	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0043491				
+protein localization	Cellular_Transport	Biological_Processes|Cellular_Transport	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0008104				
+protein maturation	Protein_Synthesis_Degradation	Biological_Processes|Protein_Synthesis_Degradation	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0051604				
+protein phosphorylation	Post_Translational_Modifications	Biological_Processes|Post_Translational_Modifications	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0006468				
+protein processing	Protein_Synthesis_Degradation	Biological_Processes|Protein_Synthesis_Degradation	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0016485				
+protein stabilization	Protein_Synthesis_Degradation	Biological_Processes|Protein_Synthesis_Degradation	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0050821				
+protein targeting to mitochondrion	Cellular_Transport	Biological_Processes|Cellular_Transport	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0006626				
+protein targeting to vacuole	Cellular_Transport	Biological_Processes|Cellular_Transport	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0006623				
+protein-containing complex assembly	Protein_Synthesis_Degradation	Biological_Processes|Protein_Synthesis_Degradation	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0065003				
+proteolysis	Protein_Synthesis_Degradation	Biological_Processes|Protein_Synthesis_Degradation	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0006508				
+proton-transporting V-type ATPase complex assembly	Energy_Mitochondrial	Biological_Processes|Energy_Mitochondrial	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0070070				
+pseudouridine synthesis	RNA_Transcription	Biological_Processes|RNA_Transcription	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0001522				
+pyroptosis	Cell_Death_Survival	Biological_Processes|Cell_Death_Survival	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0070269				
+reactive gliosis	General_Biological_Processes	Biological_Processes|General_Biological_Processes	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0150103				
+reactive oxygen species biosynthetic process	Stress_Response	Biological_Processes|Stress_Response	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:1903409				
+regeneration	Tissue_Remodeling	Biological_Processes|Tissue_Remodeling	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0031099				
+regulated exocytosis	Cellular_Transport	Biological_Processes|Cellular_Transport	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0045055				
+regulation of autophagy	Homeostasis_Regulation	Biological_Processes|Homeostasis_Regulation	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0010506				
+regulation of cell cycle	Cell_Cycle_Division	Biological_Processes|Cell_Cycle_Division	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0051726				
+regulation of cell cycle phase transition	Cell_Cycle_Division	Biological_Processes|Cell_Cycle_Division	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:1901987				
+regulation of mitochondrial membrane potential	Energy_Mitochondrial	Biological_Processes|Energy_Mitochondrial	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0051881				
+regulation of nucleotide biosynthetic process	DNA_Chromatin_Processes	Biological_Processes|DNA_Chromatin_Processes	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0030808				
+regulation of oxidative phosphorylation	Energy_Mitochondrial	Biological_Processes|Energy_Mitochondrial	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0002082				
+regulatory T cell differentiation	Cell_Differentiation_Development	Biological_Processes|Cell_Differentiation_Development	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0045066				
+release of cytochrome c from mitochondria	Cell_Death_Survival	Biological_Processes|Cell_Death_Survival	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0001836				
+replication fork processing	DNA_Chromatin_Processes	Biological_Processes|DNA_Chromatin_Processes	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0031297				
+reproduction	General_Biological_Processes	Biological_Processes|General_Biological_Processes	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0000003				
+response to amino acid	Amino_Acid_Metabolism	Amino_Acid_Metabolism|Biological_Processes	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0043200				
+response to cAMP	General_Biological_Processes	Biological_Processes|General_Biological_Processes	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0051591				
+response to clopidogrel	Drug_Response_Resistance	Biological_Processes|Drug_Response_Resistance	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:1903493				
+response to curcumin	Drug_Response_Resistance	Biological_Processes|Drug_Response_Resistance	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:1904643				
+response to doxorubicin	Drug_Response_Resistance	Biological_Processes|Drug_Response_Resistance	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:1902520				
+response to dsDNA	DNA_Chromatin_Processes	Biological_Processes|DNA_Chromatin_Processes	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:1990784				
+response to endoplasmic reticulum stress	Stress_Response	Biological_Processes|Stress_Response	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0034976				
+response to forskolin	Drug_Response_Resistance	Biological_Processes|Drug_Response_Resistance	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:1904321				
+response to hypoxia	Stress_Response	Biological_Processes|Stress_Response	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0001666				
+response to insulin	Hormones_Receptors	Biological_Processes|Hormones_Receptors	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0032868				
+response to interleukin-12	Immune_Response	Biological_Processes|Immune_Response	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0070671				
+response to lipopolysaccharide	Immune_Response	Biological_Processes|Immune_Response	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0032496				
+response to mitochondrial depolarisation	Energy_Mitochondrial	Biological_Processes|Energy_Mitochondrial	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0098780				
+response to nicotine	Drug_Response_Resistance	Biological_Processes|Drug_Response_Resistance	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0035094				
+response to oxidative stress	Stress_Response	Biological_Processes|Stress_Response	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0006979				
+response to platelet-derived growth factor	Signal_Transduction	Biological_Processes|Signal_Transduction	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0036119				
+response to radiation	Stress_Response	Biological_Processes|Stress_Response	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0009314				
+response to stress	Stress_Response	Biological_Processes|Stress_Response	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0006950				
+response to transforming growth factor beta	Signal_Transduction	Biological_Processes|Signal_Transduction	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0071559				
+response to unfolded protein	Stress_Response	Biological_Processes|Stress_Response	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0006986				
+response to virus	Immune_Response	Biological_Processes|Immune_Response	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0009615				
+retinol metabolic process	General_Biological_Processes	Biological_Processes|General_Biological_Processes	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0042572				
+retrograde axonal protein transport	Cellular_Transport	Biological_Processes|Cellular_Transport	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0099642				
+retrograde axonal transport	Cellular_Transport	Biological_Processes|Cellular_Transport	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0008090				
+ribosome assembly	Protein_Synthesis_Degradation	Biological_Processes|Protein_Synthesis_Degradation	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0042255				
+ribosome biogenesis	Protein_Synthesis_Degradation	Biological_Processes|Protein_Synthesis_Degradation	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0042254				
+ruffle assembly	General_Biological_Processes	Biological_Processes|General_Biological_Processes	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0097178				
+saliva secretion	Cellular_Transport	Biological_Processes|Cellular_Transport	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0046541				
+secretion	Cellular_Transport	Biological_Processes|Cellular_Transport	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0046903				
+sensitization	General_Biological_Processes	Biological_Processes|General_Biological_Processes	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0046960				
+sialylation	Post_Translational_Modifications	Biological_Processes|Post_Translational_Modifications	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0097503				
+signal transduction	Signal_Transduction	Biological_Processes|Signal_Transduction	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0007165				
+signaling	Signal_Transduction	Biological_Processes|Signal_Transduction	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0023052				
+skeletal muscle tissue development	Cell_Differentiation_Development	Biological_Processes|Cell_Differentiation_Development	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0007519				
+sleep	General_Biological_Processes	Biological_Processes|General_Biological_Processes	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0030431				
+smooth muscle cell apoptotic process	Cell_Death_Survival	Biological_Processes|Cell_Death_Survival	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0034390				
+smooth muscle cell proliferation	Cell_Growth_Proliferation	Biological_Processes|Cell_Growth_Proliferation	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0048659				
+smooth muscle contraction	Organ_System_Processes	Biological_Processes|Organ_System_Processes	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0006939				
+stem cell differentiation	Cell_Differentiation_Development	Biological_Processes|Cell_Differentiation_Development	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0048863				
+steroid metabolic process	Carbohydrate_Lipid_Metabolism	Biological_Processes|Carbohydrate_Lipid_Metabolism	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0008202				
+sterol biosynthetic process	Carbohydrate_Lipid_Metabolism	Biological_Processes|Carbohydrate_Lipid_Metabolism	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0016126				
+store-operated calcium entry	Signal_Transduction	Biological_Processes|Signal_Transduction	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0002115				
+stress fiber assembly	General_Biological_Processes	Biological_Processes|General_Biological_Processes	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0043149				
+synapse assembly	General_Biological_Processes	Biological_Processes|General_Biological_Processes	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0007416				
+synapse pruning	General_Biological_Processes	Biological_Processes|General_Biological_Processes	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0098883				
+synaptic signaling	General_Biological_Processes	Biological_Processes|General_Biological_Processes	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0099536				
+"synaptic transmission, glutamatergic"	General_Biological_Processes	Biological_Processes|General_Biological_Processes	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0035249				
+telomere maintenance	DNA_Chromatin_Processes	Biological_Processes|DNA_Chromatin_Processes	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0000723				
+temperature homeostasis	Homeostasis_Regulation	Biological_Processes|Homeostasis_Regulation	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0001659				
+thymic stromal lymphopoietin production	Immune_Response	Biological_Processes|Immune_Response	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0071925				
+"transcription, DNA-templated"	RNA_Transcription	Biological_Processes|RNA_Transcription	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0006351				
+transcytosis	Cellular_Transport	Biological_Processes|Cellular_Transport	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0045056				
+transdifferentiation	Cell_Differentiation_Development	Biological_Processes|Cell_Differentiation_Development	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0060290				
+transformation of host cell by virus	General_Biological_Processes	Biological_Processes|General_Biological_Processes	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0019087				
+translation	Protein_Synthesis_Degradation	Biological_Processes|RNA_Transcription	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0006412				
+translational elongation	Protein_Synthesis_Degradation	Biological_Processes|RNA_Transcription	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0006414				
+translational initiation	Protein_Synthesis_Degradation	Biological_Processes|RNA_Transcription	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0006413				
+translational termination	Protein_Synthesis_Degradation	Biological_Processes|RNA_Transcription	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0006415				
+translesion synthesis	DNA_Chromatin_Processes	Biological_Processes|DNA_Chromatin_Processes	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0019985				
+transport	Cellular_Transport	Biological_Processes|Cellular_Transport	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0006810				
+"transposition, RNA-mediated"	RNA_Transcription	Biological_Processes|RNA_Transcription	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0032197				
+tricarboxylic acid cycle	Energy_Mitochondrial	Biological_Processes|Energy_Mitochondrial	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0006099				
+tube formation	General_Biological_Processes	Biological_Processes|General_Biological_Processes	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0035148				
+tumor necrosis factor production	Immune_Response	Biological_Processes|Immune_Response	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0032640				
+type I interferon production	Immune_Response	Biological_Processes|Immune_Response	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0032606				
+urate transport	Cellular_Transport	Biological_Processes|Cellular_Transport	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0015747				
+vascular smooth muscle cell proliferation	Cell_Growth_Proliferation	Biological_Processes|Cell_Growth_Proliferation	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:1990874				
+vasculogenesis	Tissue_Remodeling	Biological_Processes|Tissue_Remodeling	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0001570				
+vasodilation	Cardiovascular_Diseases	Biological_Processes|Cardiovascular_Diseases	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0042311				
+ventral spinal cord development	Cell_Differentiation_Development	Biological_Processes|Cell_Differentiation_Development	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0021517				
+vesicle-mediated transport	Cellular_Transport	Biological_Processes|Cellular_Transport	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0016192				
+viral RNA genome replication	RNA_Transcription	Biological_Processes|RNA_Transcription	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0039694				
+viral gene expression	RNA_Transcription	Biological_Processes|RNA_Transcription	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0019080				
+viral latency	General_Biological_Processes	Biological_Processes|General_Biological_Processes	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0019042				
+viral process	General_Biological_Processes	Biological_Processes|General_Biological_Processes	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0016032				
+viral release from host cell	General_Biological_Processes	Biological_Processes|General_Biological_Processes	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0019076				
+visual perception	General_Biological_Processes	Biological_Processes|General_Biological_Processes	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0007601				
+wound healing	Tissue_Remodeling	Biological_Processes|Tissue_Remodeling	"{""Biological_Processes"": [""GO:biological_process""]}"	GO:0042060				
+Tuberous Sclerosis	Genetic_Disorders	Cellular_Components|Genetic_Disorders	"{""Cellular_Components"": [""GO:cellular_component""]}"	GO:0033596				
+Death_receptor	Cell_Death_Survival	Cell_Death_Survival|Chemicals_Drugs	"{""Chemicals_Drugs"": [""MESH:heuristic""]}"		MESH:D053218			
+"Protein Aggregation, Pathological"	Protein_Synthesis_Degradation	Chemicals_Drugs|Protein_Synthesis_Degradation	"{""Chemicals_Drugs"": [""MESH:heuristic""]}"		MESH:D066263			
+Protein Stability	Protein_Synthesis_Degradation	Chemicals_Drugs|Protein_Synthesis_Degradation	"{""Chemicals_Drugs"": [""MESH:heuristic""]}"		MESH:D055550			
+Proteinuria	Clinical_Symptoms	Chemicals_Drugs|Clinical_Symptoms	"{""Chemicals_Drugs"": [""MESH:heuristic""]}"		MESH:D011507			
+Acidosis	Clinical_Symptoms	Clinical_Symptoms|Diseases	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D000138			
+Acute Coronary Syndrome	Cardiovascular_Diseases	Cardiovascular_Diseases|Diseases	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D054058			
+Adenocarcinoma	Cancer_and_Neoplasms	Cancer_and_Neoplasms|Diseases	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D000230			
+Adenocarcinoma of Lung	Cancer_and_Neoplasms	Cancer_and_Neoplasms|Diseases	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D000077192			
+"Adenocarcinoma, Mucinous"	Cancer_and_Neoplasms	Cancer_and_Neoplasms|Diseases	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D002288			
+Adenoma	Cancer_and_Neoplasms	Cancer_and_Neoplasms|Diseases	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D000236			
+Alexander Disease	Neurological_Disorders	Diseases|Neurological_Disorders	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D038261			
+Alzheimer Disease	Neurological_Disorders	Diseases|Neurological_Disorders	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D000544			
+Ameloblastoma	Cancer_and_Neoplasms	Cancer_and_Neoplasms|Diseases	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D000564			
+Amelogenesis imperfecta nephrocalcinosis	Genetic_Disorders	Diseases|Genetic_Disorders	"{""Diseases"": [""MESH:heuristic""]}"		MESH:C538241			
+Amyloidosis	General_Biological_Processes	Diseases|General_Biological_Processes	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D000686			
+Amyotrophic Lateral Sclerosis	Neurological_Disorders	Diseases|Neurological_Disorders	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D000690			
+Anemia	Clinical_Symptoms	Clinical_Symptoms|Diseases	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D000740			
+Aortic Diseases	Cardiovascular_Diseases	Cardiovascular_Diseases|Diseases	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D001018			
+Arteritis	Cardiovascular_Diseases	Cardiovascular_Diseases|Diseases	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D001167			
+Arthritis	Autoimmune_Inflammatory	Autoimmune_Inflammatory|Diseases	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D001168			
+Astrocytoma	Cancer_and_Neoplasms	Cancer_and_Neoplasms|Diseases	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D001254			
+Atherosclerosis	Cardiovascular_Diseases	Cardiovascular_Diseases|Diseases	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D050197			
+Autoimmune Diseases	Autoimmune_Inflammatory	Autoimmune_Inflammatory|Diseases	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D001327			
+Autoimmune Lymphoproliferative Syndrome	Autoimmune_Inflammatory	Autoimmune_Inflammatory|Diseases	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D056735			
+Bacterial Infections and Mycoses	Infectious_Diseases	Diseases|Infectious_Diseases	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D001423			
+Behcet Syndrome	Genetic_Disorders	Diseases|Genetic_Disorders	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D001528			
+"Bone Diseases, Developmental"	Genetic_Disorders	Diseases|Genetic_Disorders	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D001848			
+Brain Ischemia	Cardiovascular_Diseases	Cardiovascular_Diseases|Diseases	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D002545			
+Brain Neoplasms	Cancer_and_Neoplasms	Cancer_and_Neoplasms|Diseases	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D001932			
+Breast Neoplasms	Cancer_and_Neoplasms	Cancer_and_Neoplasms|Diseases	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D001943			
+Brugada Syndrome	Genetic_Disorders	Diseases|Genetic_Disorders	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D053840			
+Burkitt Lymphoma	Cancer_and_Neoplasms	Cancer_and_Neoplasms|Diseases	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D002051			
+Carcinoma	Cancer_and_Neoplasms	Cancer_and_Neoplasms|Diseases	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D002277			
+"Carcinoma, Ductal"	Cancer_and_Neoplasms	Cancer_and_Neoplasms|Diseases	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D044584			
+"Carcinoma, Endometrioid"	Cancer_and_Neoplasms	Cancer_and_Neoplasms|Diseases	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D018269			
+"Carcinoma, Hepatocellular"	Cancer_and_Neoplasms	Cancer_and_Neoplasms|Diseases	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D006528			
+"Carcinoma, Intraductal, Noninfiltrating"	Cancer_and_Neoplasms	Cancer_and_Neoplasms|Diseases	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D002285			
+"Carcinoma, Non-Small-Cell Lung"	Cancer_and_Neoplasms	Cancer_and_Neoplasms|Diseases	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D002289			
+"Carcinoma, Pancreatic Ductal"	Cancer_and_Neoplasms	Cancer_and_Neoplasms|Diseases	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D021441			
+"Carcinoma, Renal Cell"	Cancer_and_Neoplasms	Cancer_and_Neoplasms|Diseases	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D002292			
+"Carcinoma, Small Cell"	Cancer_and_Neoplasms	Cancer_and_Neoplasms|Diseases	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D018288			
+"Carcinoma, Squamous Cell"	Cancer_and_Neoplasms	Cancer_and_Neoplasms|Diseases	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D002294			
+Cardiovascular Diseases	Cardiovascular_Diseases	Cardiovascular_Diseases|Diseases	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D002318			
+Carotid Artery Diseases	Cardiovascular_Diseases	Cardiovascular_Diseases|Diseases	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D002340			
+Cerebrovascular Disorders	Cardiovascular_Diseases	Cardiovascular_Diseases|Diseases	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D002561			
+Cholangiocarcinoma	Cancer_and_Neoplasms	Cancer_and_Neoplasms|Diseases	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D018281			
+Chronic Periodontitis	Autoimmune_Inflammatory	Autoimmune_Inflammatory|Diseases	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D055113			
+Colitis	Autoimmune_Inflammatory	Autoimmune_Inflammatory|Diseases	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D003092			
+Colonic Neoplasms	Cancer_and_Neoplasms	Cancer_and_Neoplasms|Diseases	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D003110			
+Colorectal Neoplasms	Cancer_and_Neoplasms	Cancer_and_Neoplasms|Diseases	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D015179			
+Communicable Diseases	Infectious_Diseases	Diseases|Infectious_Diseases	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D003141			
+Coronary Artery Disease	Cardiovascular_Diseases	Cardiovascular_Diseases|Diseases	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D003324			
+Coronary Disease	Cardiovascular_Diseases	Cardiovascular_Diseases|Diseases	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D003327			
+Craniopharyngioma	Cancer_and_Neoplasms	Cancer_and_Neoplasms|Diseases	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D003397			
+Crohn Disease	Autoimmune_Inflammatory	Autoimmune_Inflammatory|Diseases	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D003424			
+Cystic Fibrosis	Genetic_Disorders	Diseases|Genetic_Disorders	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D003550			
+DNA Virus Infections	Infectious_Diseases	Diseases|Infectious_Diseases	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D004266			
+Dermatitis	Autoimmune_Inflammatory	Autoimmune_Inflammatory|Diseases	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D003872			
+Diabetic Retinopathy	Metabolic_Endocrine	Diseases|Metabolic_Endocrine	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D003930			
+Disease	General_Biological_Processes	Diseases|General_Biological_Processes	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D004194			
+Disease Progression	General_Biological_Processes	Diseases|General_Biological_Processes	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D018450			
+"Disorder of Sex Development, 46,XY"	Genetic_Disorders	Diseases|Genetic_Disorders	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D058490			
+Dysbiosis	Clinical_Symptoms	Clinical_Symptoms|Diseases	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D064806			
+Encephalitis	Neurological_Disorders	Diseases|Neurological_Disorders	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D004660			
+Enchondromatosis	Genetic_Disorders	Diseases|Genetic_Disorders	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D004687			
+Endometrial Neoplasms	Cancer_and_Neoplasms	Cancer_and_Neoplasms|Diseases	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D016889			
+Erdheim-Chester Disease	Genetic_Disorders	Diseases|Genetic_Disorders	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D031249			
+Eye Neoplasms	Cancer_and_Neoplasms	Cancer_and_Neoplasms|Diseases	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D005134			
+Fanconi Anemia	Genetic_Disorders	Diseases|Genetic_Disorders	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D005199			
+Feline Infectious Peritonitis	Infectious_Diseases	Diseases|Infectious_Diseases	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D016766			
+Fibrosarcoma	Cancer_and_Neoplasms	Cancer_and_Neoplasms|Diseases	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D005354			
+Fibrosis	Tissue_Remodeling	Diseases|Tissue_Remodeling	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D005355			
+Fragile X Syndrome	Genetic_Disorders	Diseases|Genetic_Disorders	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D005600			
+Gallbladder Neoplasms	Cancer_and_Neoplasms	Cancer_and_Neoplasms|Diseases	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D005706			
+Gastrointestinal Diseases	General_Biological_Processes	Diseases|General_Biological_Processes	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D005767			
+Gastrointestinal Neoplasms	Cancer_and_Neoplasms	Cancer_and_Neoplasms|Diseases	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D005770			
+Gastrointestinal Stromal Tumors	Cancer_and_Neoplasms	Cancer_and_Neoplasms|Diseases	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D046152			
+Genetic Predisposition to Disease	Genetic_Disorders	Diseases|Genetic_Disorders	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D020022			
+Glaucoma	Neurological_Disorders	Diseases|Neurological_Disorders	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D005901			
+Glioblastoma	Cancer_and_Neoplasms	Cancer_and_Neoplasms|Diseases	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D005909			
+Glioma	Cancer_and_Neoplasms	Cancer_and_Neoplasms|Diseases	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D005910			
+Gliosis	General_Biological_Processes	Diseases|General_Biological_Processes	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D005911			
+Granuloma	General_Biological_Processes	Diseases|General_Biological_Processes	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D006099			
+Granulosa Cell Tumor	Cancer_and_Neoplasms	Cancer_and_Neoplasms|Diseases	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D006106			
+HIV Infections	Infectious_Diseases	Diseases|Infectious_Diseases	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D015658			
+Hamartoma	Cancer_and_Neoplasms	Cancer_and_Neoplasms|Diseases	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D006222			
+Hamman-Rich Syndrome	Autoimmune_Inflammatory	Diseases|Autoimmune_Inflammatory	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D000080203			
+Heart Diseases	Cardiovascular_Diseases	Cardiovascular_Diseases|Diseases	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D006331			
+Heart Failure	Cardiovascular_Diseases	Cardiovascular_Diseases|Diseases	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D006333			
+Hemangioma	Cancer_and_Neoplasms	Cancer_and_Neoplasms|Diseases	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D006391			
+Hemangiosarcoma	Cancer_and_Neoplasms	Cancer_and_Neoplasms|Diseases	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D006394			
+Hematologic Neoplasms	Cancer_and_Neoplasms	Cancer_and_Neoplasms|Diseases	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D019337			
+Hepatoblastoma	Cancer_and_Neoplasms	Cancer_and_Neoplasms|Diseases	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D018197			
+Histiocytosis	General_Biological_Processes	Diseases|General_Biological_Processes	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D015614			
+Holt-Oram syndrome	Genetic_Disorders	Diseases|Genetic_Disorders	"{""Diseases"": [""MESH:heuristic""]}"		MESH:C535326			
+Huntington Disease	Neurological_Disorders	Diseases|Neurological_Disorders	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D006816			
+Hypercalcemia	Metabolic_Endocrine	Diseases|Metabolic_Endocrine	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D006934			
+Hypercholesterolemia	Metabolic_Endocrine	Diseases|Metabolic_Endocrine	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D006937			
+Hyperglycemia	Metabolic_Endocrine	Diseases|Metabolic_Endocrine	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D006943			
+Hypoglycemia	Metabolic_Endocrine	Diseases|Metabolic_Endocrine	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D007003			
+IgA Vasculitis	Autoimmune_Inflammatory	Autoimmune_Inflammatory|Diseases	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D011695			
+Ileitis	Autoimmune_Inflammatory	Autoimmune_Inflammatory|Diseases	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D007079			
+Immunologic Deficiency Syndromes	Immune_Response	Diseases|Immune_Response	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D007153			
+Infections	Infectious_Diseases	Diseases|Infectious_Diseases	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D007239			
+Infectious Mononucleosis	Infectious_Diseases	Diseases|Infectious_Diseases	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D007244			
+Inflammatory Bowel Diseases	Autoimmune_Inflammatory	Autoimmune_Inflammatory|Diseases	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D015212			
+Intestinal Neoplasms	Cancer_and_Neoplasms	Cancer_and_Neoplasms|Diseases	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D007414			
+Intestinal Polyposis	General_Biological_Processes	Diseases|General_Biological_Processes	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D044483			
+Ischemia	Cardiovascular_Diseases	Cardiovascular_Diseases|Diseases	"{""Diseases"": [""DOID""]}"				DOID:DOID:326	
+Kidney Diseases	General_Biological_Processes	Diseases|General_Biological_Processes	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D007674			
+Kidney Neoplasms	Cancer_and_Neoplasms	Cancer_and_Neoplasms|Diseases	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D007680			
+Leukemia	Cancer_and_Neoplasms	Cancer_and_Neoplasms|Diseases	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D007938			
+Leukocytosis	Clinical_Symptoms	Clinical_Symptoms|Diseases	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D007964			
+Lewy Body Disease	Neurological_Disorders	Diseases|Neurological_Disorders	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D020961			
+Liver Cirrhosis	Tissue_Remodeling	Diseases|Tissue_Remodeling	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D008103			
+Liver Diseases	General_Biological_Processes	Diseases|General_Biological_Processes	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D008107			
+Liver Neoplasms	Cancer_and_Neoplasms	Cancer_and_Neoplasms|Diseases	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D008113			
+Long QT Syndrome	Cardiovascular_Diseases	Cardiovascular_Diseases|Diseases	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D008133			
+Low Tension Glaucoma	Neurological_Disorders	Diseases|Neurological_Disorders	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D057066			
+Lung Injury	General_Biological_Processes	Diseases|General_Biological_Processes	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D055370			
+Lung Neoplasms	Cancer_and_Neoplasms	Cancer_and_Neoplasms|Diseases	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D008175			
+Lymphoma	Cancer_and_Neoplasms	Cancer_and_Neoplasms|Diseases	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D008223			
+Lymphoproliferative Disorders	Cancer_and_Neoplasms	Cancer_and_Neoplasms|Diseases	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D008232			
+Marfan Syndrome	Genetic_Disorders	Diseases|Genetic_Disorders	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D008382			
+Medulloblastoma	Cancer_and_Neoplasms	Cancer_and_Neoplasms|Diseases	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D008527			
+Megacystis microcolon intestinal hypoperistalsis syndrome	Genetic_Disorders	Diseases|Genetic_Disorders	"{""Diseases"": [""MESH:heuristic""]}"		MESH:C536138			
+Melanoma	Cancer_and_Neoplasms	Cancer_and_Neoplasms|Diseases	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D008545			
+Melanosis	General_Biological_Processes	Diseases|General_Biological_Processes	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D008548			
+Memory Disorders	Neurological_Disorders	Diseases|Neurological_Disorders	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D008569			
+Meningioma	Cancer_and_Neoplasms	Cancer_and_Neoplasms|Diseases	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D008579			
+Metabolic Syndrome	Metabolic_Endocrine	Diseases|Metabolic_Endocrine	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D024821			
+Migraine Disorders	Neurological_Disorders	Diseases|Neurological_Disorders	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D008881			
+Mitochondrial Diseases	Genetic_Disorders	Diseases|Genetic_Disorders	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D028361			
+Mitosis	Cell_Cycle_Division	Cell_Cycle_Division|Diseases	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D008938			
+Movement Disorders	Neurological_Disorders	Diseases|Neurological_Disorders	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D009069			
+Moyamoya Disease	Cardiovascular_Diseases	Cardiovascular_Diseases|Diseases	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D009072			
+Multiple Myeloma	Cancer_and_Neoplasms	Cancer_and_Neoplasms|Diseases	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D009101			
+Multiple Sclerosis	Autoimmune_Inflammatory	Autoimmune_Inflammatory|Diseases	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D009103			
+Muscular Diseases	General_Biological_Processes	Diseases|General_Biological_Processes	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D009135			
+Myelodysplastic Syndromes	Cancer_and_Neoplasms	Cancer_and_Neoplasms|Diseases	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D009190			
+Myeloproliferative Disorders	Cancer_and_Neoplasms	Cancer_and_Neoplasms|Diseases	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D009196			
+Myocardial Ischemia	Cardiovascular_Diseases	Cardiovascular_Diseases|Diseases	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D017202			
+Neoplasm Invasiveness	Cancer_and_Neoplasms	Cancer_and_Neoplasms|Diseases	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D009361			
+Neoplasm Metastasis	Cancer_and_Neoplasms	Cancer_and_Neoplasms|Diseases	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D009362			
+Neoplasms	Cancer_and_Neoplasms	Cancer_and_Neoplasms|Diseases	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D009369			
+"Neoplasms, Glandular and Epithelial"	Cancer_and_Neoplasms	Cancer_and_Neoplasms|Diseases	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D009375			
+Nervous System Diseases	Neurological_Disorders	Diseases|Neurological_Disorders	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D009422			
+Neuritis	Neurological_Disorders	Diseases|Neurological_Disorders	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D009443			
+Neuroblastoma	Cancer_and_Neoplasms	Cancer_and_Neoplasms|Diseases	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D009447			
+Neurodegenerative Diseases	Neurological_Disorders	Diseases|Neurological_Disorders	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D019636			
+Neuroendocrine Tumors	Cancer_and_Neoplasms	Cancer_and_Neoplasms|Diseases	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D018358			
+Neurofibroma	Cancer_and_Neoplasms	Cancer_and_Neoplasms|Diseases	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D009455			
+Neurotoxicity Syndromes	Neurological_Disorders	Diseases|Neurological_Disorders	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D020258			
+Niemann-Pick Diseases	Genetic_Disorders	Diseases|Genetic_Disorders	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D009542			
+Non-alcoholic Fatty Liver Disease	Metabolic_Endocrine	Diseases|Metabolic_Endocrine	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D065626			
+Noonan Syndrome	Genetic_Disorders	Diseases|Genetic_Disorders	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D009634			
+Oral Submucous Fibrosis	Tissue_Remodeling	Diseases|Tissue_Remodeling	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D009914			
+Osteoarthritis	Autoimmune_Inflammatory	Autoimmune_Inflammatory|Diseases	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D010003			
+Osteoporosis	Metabolic_Endocrine	Diseases|Metabolic_Endocrine	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D010024			
+Osteosarcoma	Cancer_and_Neoplasms	Cancer_and_Neoplasms|Diseases	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D012516			
+Ovarian Neoplasms	Cancer_and_Neoplasms	Cancer_and_Neoplasms|Diseases	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D010051			
+Pancreatic Neoplasms	Cancer_and_Neoplasms	Cancer_and_Neoplasms|Diseases	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D010190			
+Pancreatitis	Autoimmune_Inflammatory	Autoimmune_Inflammatory|Diseases	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D010195			
+Parkinson Disease	Neurological_Disorders	Diseases|Neurological_Disorders	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D010300			
+Parkinsonian Disorders	Neurological_Disorders	Diseases|Neurological_Disorders	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D020734			
+Pendred syndrome	Genetic_Disorders	Diseases|Genetic_Disorders	"{""Diseases"": [""MESH:heuristic""]}"		MESH:C536648			
+Periodontal Diseases	Autoimmune_Inflammatory	Autoimmune_Inflammatory|Diseases	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D010510			
+Periodontitis	Autoimmune_Inflammatory	Autoimmune_Inflammatory|Diseases	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D010518			
+Peripheral Nervous System Diseases	Neurological_Disorders	Diseases|Neurological_Disorders	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D010523			
+Peritonitis	Infectious_Diseases	Diseases|Infectious_Diseases	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D010538			
+Perry Syndrome	Neurological_Disorders	Diseases|Neurological_Disorders	"{""Diseases"": [""MESH:heuristic""]}"		MESH:C566822			
+Pheochromocytoma	Cancer_and_Neoplasms	Cancer_and_Neoplasms|Diseases	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D010673			
+Placenta Diseases	General_Biological_Processes	Diseases|General_Biological_Processes	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D010922			
+Polycythemia	Clinical_Symptoms	Clinical_Symptoms|Diseases	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D011086			
+Precancerous Conditions	Cancer_and_Neoplasms	Cancer_and_Neoplasms|Diseases	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D011230			
+Precursor B-Cell Lymphoblastic Leukemia-Lymphoma	Cancer_and_Neoplasms	Cancer_and_Neoplasms|Diseases	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D015452			
+Precursor Cell Lymphoblastic Leukemia-Lymphoma	Cancer_and_Neoplasms	Cancer_and_Neoplasms|Diseases	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D054198			
+Precursor T-Cell Lymphoblastic Leukemia-Lymphoma	Cancer_and_Neoplasms	Cancer_and_Neoplasms|Diseases	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D054218			
+Primary Myelofibrosis	Cancer_and_Neoplasms	Cancer_and_Neoplasms|Diseases	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D055728			
+Prolactinoma	Cancer_and_Neoplasms	Cancer_and_Neoplasms|Diseases	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D015175			
+Prostatic Neoplasms	Cancer_and_Neoplasms	Cancer_and_Neoplasms|Diseases	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D011471			
+"Pulmonary Disease, Chronic Obstructive"	General_Biological_Processes	Diseases|General_Biological_Processes	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D029424			
+Rectal Neoplasms	Cancer_and_Neoplasms	Cancer_and_Neoplasms|Diseases	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D012004			
+Reperfusion Injury	Cardiovascular_Diseases	Cardiovascular_Diseases|Diseases	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D015427			
+Respiratory Tract Diseases	General_Biological_Processes	Diseases|General_Biological_Processes	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D012140			
+Retinoblastoma	Cancer_and_Neoplasms	Cancer_and_Neoplasms|Diseases	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D012175			
+Retroviridae Infections	Infectious_Diseases	Diseases|Infectious_Diseases	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D012192			
+Rhabdomyosarcoma	Cancer_and_Neoplasms	Cancer_and_Neoplasms|Diseases	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D012208			
+Romano-Ward Syndrome	Cardiovascular_Diseases	Cardiovascular_Diseases|Diseases	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D029597			
+Sarcoma	Cancer_and_Neoplasms	Cancer_and_Neoplasms|Diseases	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D012509			
+Severe Acute Respiratory Syndrome	Infectious_Diseases	Diseases|Infectious_Diseases	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D045169			
+Severe Combined Immunodeficiency	Genetic_Disorders	Diseases|Genetic_Disorders	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D016511			
+Skin Diseases	General_Biological_Processes	Diseases|General_Biological_Processes	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D012871			
+Skin Neoplasms	Cancer_and_Neoplasms	Cancer_and_Neoplasms|Diseases	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D012878			
+Sleep Apnea Syndromes	General_Biological_Processes	Diseases|General_Biological_Processes	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D012891			
+Small Cell Lung Carcinoma	Cancer_and_Neoplasms	Cancer_and_Neoplasms|Diseases	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D055752			
+Sorsby's fundus dystrophy	Genetic_Disorders	Diseases|Genetic_Disorders	"{""Diseases"": [""DOID""]}"				DOID:DOID:0090114	
+Spondylitis	Autoimmune_Inflammatory	Autoimmune_Inflammatory|Diseases	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D013166			
+Squamous Cell Carcinoma of Head and Neck	Cancer_and_Neoplasms	Cancer_and_Neoplasms|Diseases	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D000077195			
+Staphylococcal Infections	Infectious_Diseases	Diseases|Infectious_Diseases	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D013203			
+Stomach Neoplasms	Cancer_and_Neoplasms	Cancer_and_Neoplasms|Diseases	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D013274			
+Superinfection	Infectious_Diseases	Diseases|Infectious_Diseases	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D015163			
+Syndrome	Genetic_Disorders	Diseases|Genetic_Disorders	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D013577			
+Thrombocytosis	Cardiovascular_Diseases	Cardiovascular_Diseases|Diseases	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D013922			
+Thrombosis	Cardiovascular_Diseases	Cardiovascular_Diseases|Diseases	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D013927			
+Thymoma	Cancer_and_Neoplasms	Cancer_and_Neoplasms|Diseases	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D013945			
+"Thyroid Cancer, Papillary"	Cancer_and_Neoplasms	Cancer_and_Neoplasms|Diseases	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D000077273			
+Thyroid Neoplasms	Cancer_and_Neoplasms	Cancer_and_Neoplasms|Diseases	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D013964			
+Triple Negative Breast Neoplasms	Cancer_and_Neoplasms	Cancer_and_Neoplasms|Diseases	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D064726			
+Tumor Microenvironment	Cancer_and_Neoplasms	Cancer_and_Neoplasms|Diseases	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D059016			
+Urinary Bladder Neoplasms	Cancer_and_Neoplasms	Cancer_and_Neoplasms|Diseases	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D001749			
+Uterine Cervical Neoplasms	Cancer_and_Neoplasms	Cancer_and_Neoplasms|Diseases	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D002583			
+Vasculitis	Cardiovascular_Diseases	Cardiovascular_Diseases|Diseases	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D014657			
+Vesicular Stomatitis	Infectious_Diseases	Diseases|Infectious_Diseases	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D054243			
+Virus Diseases	Infectious_Diseases	Diseases|Infectious_Diseases	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D014777			
+WT limb blood syndrome	Genetic_Disorders	Diseases|Genetic_Disorders	"{""Diseases"": [""MESH:heuristic""]}"		MESH:C536751			
+Weill-Marchesani Syndrome	Genetic_Disorders	Diseases|Genetic_Disorders	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D056846			
+congenital hereditary endothelial dystrophy of cornea	Genetic_Disorders	Diseases|Genetic_Disorders	"{""Diseases"": [""DOID""]}"				DOID:DOID:0060649	
+hypersensitivity reaction disease	Immune_Response	Diseases|Immune_Response	"{""Diseases"": [""DOID""]}"				DOID:DOID:0060056	
+lung cancer	Cancer_and_Neoplasms	Cancer_and_Neoplasms|Diseases	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D008175			
+pancreatic ductal adenocarcinoma	Cancer_and_Neoplasms	Cancer_and_Neoplasms|Diseases	"{""Diseases"": [""DOID""]}"				DOID:DOID:3498	
+renal fibrosis	Tissue_Remodeling	Diseases|Tissue_Remodeling	"{""Diseases"": [""DOID""]}"				DOID:DOID:0050855	
+von Willebrand Diseases	Genetic_Disorders	Diseases|Genetic_Disorders	"{""Diseases"": [""MESH:heuristic""]}"		MESH:D014842			
+Drug Resistance	Drug_Response_Resistance	Drug_Response_Resistance|Experimental_Factors	"{""Experimental_Factors"": [""EFO""]}"					EFO:0020001
+5'-flap endonuclease activity	General_Biological_Processes	General_Biological_Processes|Molecular_Functions	"{""Molecular_Functions"": [""GO:molecular_function""]}"	GO:0017108				
+ADRA2	Hormones_Receptors	Hormones_Receptors|Molecular_Functions	"{""Molecular_Functions"": [""GO:molecular_function""]}"	GO:0004938				
+ATP-activated inward rectifier potassium channel activity	Energy_Mitochondrial	Energy_Mitochondrial|Molecular_Functions	"{""Molecular_Functions"": [""GO:molecular_function""]}"	GO:0015272				
+ATPase activity	Energy_Mitochondrial	Energy_Mitochondrial|Molecular_Functions	"{""Molecular_Functions"": [""GO:molecular_function""]}"	GO:0140657				
+DNA binding	DNA_Chromatin_Processes	DNA_Chromatin_Processes|Molecular_Functions	"{""Molecular_Functions"": [""GO:molecular_function""]}"	GO:0003677				
+DNA-dependent ATPase activity	DNA_Chromatin_Processes	DNA_Chromatin_Processes|Molecular_Functions	"{""Molecular_Functions"": [""GO:molecular_function""]}"	GO:0008094				
+DNA-methyltransferase activity	DNA_Chromatin_Processes	DNA_Chromatin_Processes|Molecular_Functions	"{""Molecular_Functions"": [""GO:molecular_function""]}"	GO:0009008				
+EIF4EBP	General_Biological_Processes	General_Biological_Processes|Molecular_Functions	"{""Molecular_Functions"": [""GO:molecular_function""]}"	GO:0008190				
+GABA receptor activity	Hormones_Receptors	Hormones_Receptors|Molecular_Functions	"{""Molecular_Functions"": [""GO:molecular_function""]}"	GO:0016917				
+GDP-dissociation inhibitor activity	General_Biological_Processes	General_Biological_Processes|Molecular_Functions	"{""Molecular_Functions"": [""GO:molecular_function""]}"	GO:0005092				
+JUN kinase kinase activity	Signal_Transduction	Molecular_Functions|Signal_Transduction	"{""Molecular_Functions"": [""GO:molecular_function""]}"	GO:0008545				
+KDEL sequence binding	General_Biological_Processes	General_Biological_Processes|Molecular_Functions	"{""Molecular_Functions"": [""GO:molecular_function""]}"	GO:0005046				
+L-gulonolactone oxidase activity	General_Biological_Processes	General_Biological_Processes|Molecular_Functions	"{""Molecular_Functions"": [""GO:molecular_function""]}"	GO:0050105				
+MAP kinase activity	Signal_Transduction	Molecular_Functions|Signal_Transduction	"{""Molecular_Functions"": [""GO:molecular_function""]}"	GO:0004707				
+RNA binding	RNA_Transcription	Molecular_Functions|RNA_Transcription	"{""Molecular_Functions"": [""GO:molecular_function""]}"	GO:0003723				
+SNAP receptor activity	Cellular_Transport	Cellular_Transport|Molecular_Functions	"{""Molecular_Functions"": [""GO:molecular_function""]}"	GO:0005484				
+UBE2	Protein_Synthesis_Degradation	Molecular_Functions|Protein_Synthesis_Degradation	"{""Molecular_Functions"": [""GO:molecular_function""]}"	GO:0019787				
+acetyltransferase activity	Post_Translational_Modifications	Molecular_Functions|Post_Translational_Modifications	"{""Molecular_Functions"": [""GO:molecular_function""]}"	GO:0016407				
+adrenergic receptor activity	Hormones_Receptors	Hormones_Receptors|Molecular_Functions	"{""Molecular_Functions"": [""GO:molecular_function""]}"	GO:0004935				
+amino acid transmembrane transporter activity	Amino_Acid_Metabolism	Amino_Acid_Metabolism|Molecular_Functions	"{""Molecular_Functions"": [""GO:molecular_function""]}"	GO:0015171				
+angiotensin type II receptor activity	Hormones_Receptors	Hormones_Receptors|Molecular_Functions	"{""Molecular_Functions"": [""GO:molecular_function""]}"	GO:0004945				
+antigen binding	Immune_Response	Immune_Response|Molecular_Functions	"{""Molecular_Functions"": [""GO:molecular_function""]}"	GO:0003823				
+calcium channel activity	Hormones_Receptors	Hormones_Receptors|Molecular_Functions	"{""Molecular_Functions"": [""GO:molecular_function""]}"	GO:0005262				
+calcium-activated potassium channel activity	Hormones_Receptors	Hormones_Receptors|Molecular_Functions	"{""Molecular_Functions"": [""GO:molecular_function""]}"	GO:0015269				
+calcium-release channel activity	Hormones_Receptors	Hormones_Receptors|Molecular_Functions	"{""Molecular_Functions"": [""GO:molecular_function""]}"	GO:0015278				
+channel regulator activity	Hormones_Receptors	Hormones_Receptors|Molecular_Functions	"{""Molecular_Functions"": [""GO:molecular_function""]}"	GO:0016247				
+chromatin binding	DNA_Chromatin_Processes	DNA_Chromatin_Processes|Molecular_Functions	"{""Molecular_Functions"": [""GO:molecular_function""]}"	GO:0003682				
+coreceptor activity	Hormones_Receptors	Hormones_Receptors|Molecular_Functions	"{""Molecular_Functions"": [""GO:molecular_function""]}"	GO:0015026				
+cyclase activity	General_Biological_Processes	General_Biological_Processes|Molecular_Functions	"{""Molecular_Functions"": [""GO:molecular_function""]}"	GO:0009975				
+deacetylase activity	Post_Translational_Modifications	Molecular_Functions|Post_Translational_Modifications	"{""Molecular_Functions"": [""GO:molecular_function""]}"	GO:0019213				
+deaminase activity	General_Biological_Processes	General_Biological_Processes|Molecular_Functions	"{""Molecular_Functions"": [""GO:molecular_function""]}"	GO:0019239				
+endonuclease activity	General_Biological_Processes	General_Biological_Processes|Molecular_Functions	"{""Molecular_Functions"": [""GO:molecular_function""]}"	GO:0004519				
+exonuclease activity	General_Biological_Processes	General_Biological_Processes|Molecular_Functions	"{""Molecular_Functions"": [""GO:molecular_function""]}"	GO:0004527				
+extracellularly glycine-gated chloride channel activity	Hormones_Receptors	Hormones_Receptors|Molecular_Functions	"{""Molecular_Functions"": [""GO:molecular_function""]}"	GO:0016934				
+glutathione transferase activity	Amino_Acid_Metabolism	Amino_Acid_Metabolism|Molecular_Functions	"{""Molecular_Functions"": [""GO:molecular_function""]}"	GO:0004364				
+hexokinase activity	Carbohydrate_Lipid_Metabolism	Carbohydrate_Lipid_Metabolism|Molecular_Functions	"{""Molecular_Functions"": [""GO:molecular_function""]}"	GO:0004396				
+histone methyltransferase activity	DNA_Chromatin_Processes	DNA_Chromatin_Processes|Molecular_Functions	"{""Molecular_Functions"": [""GO:molecular_function""]}"	GO:0042054				
+hydrolase activity	General_Biological_Processes	General_Biological_Processes|Molecular_Functions	"{""Molecular_Functions"": [""GO:molecular_function""]}"	GO:0016787				
+"hydrolase activity, acting on glycosyl bonds"	General_Biological_Processes	General_Biological_Processes|Molecular_Functions	"{""Molecular_Functions"": [""GO:molecular_function""]}"	GO:0016798				
+insulin-like growth factor-activated receptor activity	Hormones_Receptors	Hormones_Receptors|Molecular_Functions	"{""Molecular_Functions"": [""GO:molecular_function""]}"	GO:0005010				
+integrase activity	General_Biological_Processes	General_Biological_Processes|Molecular_Functions	"{""Molecular_Functions"": [""GO:molecular_function""]}"	GO:0008907				
+interleukin-8 receptor activity	Hormones_Receptors	Hormones_Receptors|Molecular_Functions	"{""Molecular_Functions"": [""GO:molecular_function""]}"	GO:0004918				
+inward rectifier potassium channel activity	Hormones_Receptors	Hormones_Receptors|Molecular_Functions	"{""Molecular_Functions"": [""GO:molecular_function""]}"	GO:0005242				
+kinase activity	General_Biological_Processes	General_Biological_Processes|Molecular_Functions	"{""Molecular_Functions"": [""GO:molecular_function""]}"	GO:0016301				
+large conductance calcium-activated potassium channel activity	Hormones_Receptors	Hormones_Receptors|Molecular_Functions	"{""Molecular_Functions"": [""GO:molecular_function""]}"	GO:0060072				
+ligand-gated sodium channel activity	Hormones_Receptors	Hormones_Receptors|Molecular_Functions	"{""Molecular_Functions"": [""GO:molecular_function""]}"	GO:0015280				
+ligase activity	General_Biological_Processes	General_Biological_Processes|Molecular_Functions	"{""Molecular_Functions"": [""GO:molecular_function""]}"	GO:0016874				
+lipase activity	Carbohydrate_Lipid_Metabolism	Carbohydrate_Lipid_Metabolism|Molecular_Functions	"{""Molecular_Functions"": [""GO:molecular_function""]}"	GO:0016298				
+lipid kinase activity	Carbohydrate_Lipid_Metabolism	Carbohydrate_Lipid_Metabolism|Molecular_Functions	"{""Molecular_Functions"": [""GO:molecular_function""]}"	GO:0001727				
+lyase activity	General_Biological_Processes	General_Biological_Processes|Molecular_Functions	"{""Molecular_Functions"": [""GO:molecular_function""]}"	GO:0016829				
+methyltransferase activity	Post_Translational_Modifications	Molecular_Functions|Post_Translational_Modifications	"{""Molecular_Functions"": [""GO:molecular_function""]}"	GO:0008168				
+microtubule binding	General_Biological_Processes	General_Biological_Processes|Molecular_Functions	"{""Molecular_Functions"": [""GO:molecular_function""]}"	GO:0008017				
+microtubule motor activity	General_Biological_Processes	General_Biological_Processes|Molecular_Functions	"{""Molecular_Functions"": [""GO:molecular_function""]}"	GO:0003777				
+monocarboxylic acid transmembrane transporter activity	Cellular_Transport	Cellular_Transport|Molecular_Functions	"{""Molecular_Functions"": [""GO:molecular_function""]}"	GO:0008028				
+morphogen activity	Hormones_Receptors	Hormones_Receptors|Molecular_Functions	"{""Molecular_Functions"": [""GO:molecular_function""]}"	GO:0016015				
+motor activity	General_Biological_Processes	General_Biological_Processes|Molecular_Functions	"{""Molecular_Functions"": [""GO:molecular_function""]}"	GO:0003774				
+nuclear receptor activity	Hormones_Receptors	Hormones_Receptors|Molecular_Functions	"{""Molecular_Functions"": [""GO:molecular_function""]}"	GO:0004879				
+nuclease activity	General_Biological_Processes	General_Biological_Processes|Molecular_Functions	"{""Molecular_Functions"": [""GO:molecular_function""]}"	GO:0004518				
+oxidoreductase activity	General_Biological_Processes	General_Biological_Processes|Molecular_Functions	"{""Molecular_Functions"": [""GO:molecular_function""]}"	GO:0016491				
+pattern recognition receptor activity	Immune_Response	Immune_Response|Molecular_Functions	"{""Molecular_Functions"": [""GO:molecular_function""]}"	GO:0038187				
+peptidase activity	General_Biological_Processes	General_Biological_Processes|Molecular_Functions	"{""Molecular_Functions"": [""GO:molecular_function""]}"	GO:0008233				
+phospholipase activity	Carbohydrate_Lipid_Metabolism	Carbohydrate_Lipid_Metabolism|Molecular_Functions	"{""Molecular_Functions"": [""GO:molecular_function""]}"	GO:0004620				
+phosphoprotein phosphatase activity	Post_Translational_Modifications	Molecular_Functions|Post_Translational_Modifications|	"{""Molecular_Functions"": [""GO:molecular_function""]}"	GO:0004721				
+protein C-terminal methylesterase activity	Post_Translational_Modifications	Molecular_Functions|Post_Translational_Modifications	"{""Molecular_Functions"": [""GO:molecular_function""]}"	GO:0051722				
+protein binding	General_Biological_Processes	General_Biological_Processes|Molecular_Functions	"{""Molecular_Functions"": [""GO:molecular_function""]}"	GO:0005515				
+protein kinase activity	Post_Translational_Modifications	Molecular_Functions|Post_Translational_Modifications	"{""Molecular_Functions"": [""GO:molecular_function""]}"	GO:0004672				
+protein tyrosine kinase activity	Post_Translational_Modifications	Molecular_Functions|Post_Translational_Modifications	"{""Molecular_Functions"": [""GO:molecular_function""]}"	GO:0004713				
+protein tyrosine phosphatase activity	Post_Translational_Modifications	Molecular_Functions|Post_Translational_Modifications	"{""Molecular_Functions"": [""GO:molecular_function""]}"	GO:0004725				
+proteinase activated receptor activity	Hormones_Receptors	Hormones_Receptors|Molecular_Functions	"{""Molecular_Functions"": [""GO:molecular_function""]}"	GO:0001648				
+recombinase activity	General_Biological_Processes	General_Biological_Processes|Molecular_Functions	"{""Molecular_Functions"": [""GO:molecular_function""]}"	GO:0000150				
+retinol binding	General_Biological_Processes	General_Biological_Processes|Molecular_Functions	"{""Molecular_Functions"": [""GO:molecular_function""]}"	GO:0019841				
+ribonuclease inhibitor activity	General_Biological_Processes	General_Biological_Processes|Molecular_Functions	"{""Molecular_Functions"": [""GO:molecular_function""]}"	GO:0008428				
+signaling receptor activity	Hormones_Receptors	Hormones_Receptors|Molecular_Functions	"{""Molecular_Functions"": [""GO:molecular_function""]}"	GO:0038023				
+sodium channel activity	Hormones_Receptors	Hormones_Receptors|Molecular_Functions	"{""Molecular_Functions"": [""GO:molecular_function""]}"	GO:0005272				
+sodium:chloride symporter activity	Cellular_Transport	Cellular_Transport|Molecular_Functions	"{""Molecular_Functions"": [""GO:molecular_function""]}"	GO:0015378				
+store-operated calcium channel activity	Hormones_Receptors	Hormones_Receptors|Molecular_Functions	"{""Molecular_Functions"": [""GO:molecular_function""]}"	GO:0015279				
+symporter activity	Cellular_Transport	Cellular_Transport|Molecular_Functions	"{""Molecular_Functions"": [""GO:molecular_function""]}"	GO:0015293				
+tau-protein kinase activity	Post_Translational_Modifications	Molecular_Functions|Post_Translational_Modifications	"{""Molecular_Functions"": [""GO:molecular_function""]}"	GO:0050321				
+thiol-dependent ubiquitin-specific protease activity	Protein_Synthesis_Degradation	Molecular_Functions|Protein_Synthesis_Degradation	"{""Molecular_Functions"": [""GO:molecular_function""]}"	GO:0004843				
+transcription corepressor activity	RNA_Transcription	Molecular_Functions|RNA_Transcription	"{""Molecular_Functions"": [""GO:molecular_function""]}"	GO:0003714				
+triplet codon-amino acid adaptor activity	RNA_Transcription	Molecular_Functions|RNA_Transcription	"{""Molecular_Functions"": [""GO:molecular_function""]}"	GO:0030533				
+type I interferon receptor binding	Immune_Response	Immune_Response|Molecular_Functions	"{""Molecular_Functions"": [""GO:molecular_function""]}"	GO:0005132				
+ubiquitin protein ligase activity	Protein_Synthesis_Degradation	Molecular_Functions|Protein_Synthesis_Degradation	"{""Molecular_Functions"": [""GO:molecular_function""]}"	GO:0061630				
+voltage-gated anion channel activity	Hormones_Receptors	Hormones_Receptors|Molecular_Functions	"{""Molecular_Functions"": [""GO:molecular_function""]}"	GO:0008308				
+voltage-gated calcium channel activity	Hormones_Receptors	Hormones_Receptors|Molecular_Functions	"{""Molecular_Functions"": [""GO:molecular_function""]}"	GO:0005245				
+ADRA	Hormones_Receptors	Hormones_Receptors|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D011941			
+"Abortion, Spontaneous"	Clinical_Symptoms	Clinical_Symptoms|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D000022			
+"Aging, Premature"	General_Biological_Processes	General_Biological_Processes|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D019588			
+Albuminuria	Clinical_Symptoms	Clinical_Symptoms|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D000419			
+Alopecia	Clinical_Symptoms	Clinical_Symptoms|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D000505			
+Amebiasis	Infectious_Diseases	Infectious_Diseases|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D000562			
+"Amyloidosis, Familial"	Genetic_Disorders	Genetic_Disorders|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D028226			
+"Anemia, Aplastic"	Clinical_Symptoms	Clinical_Symptoms|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D000741			
+"Anemia, Hypochromic"	Clinical_Symptoms	Clinical_Symptoms|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D000747			
+"Anemia, Sideroblastic"	Clinical_Symptoms	Clinical_Symptoms|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D000756			
+Aneuploidy	Cell_Cycle_Division	Cell_Cycle_Division|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D000782			
+"Aortic Aneurysm, Thoracic"	Cardiovascular_Diseases	Cardiovascular_Diseases|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D017545			
+"Arrhythmias, Cardiac"	Cardiovascular_Diseases	Cardiovascular_Diseases|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D001145			
+Arthralgia	Clinical_Symptoms	Clinical_Symptoms|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D018771			
+"Arthritis, Rheumatoid"	Autoimmune_Inflammatory	Autoimmune_Inflammatory|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D001172			
+Ascites	Clinical_Symptoms	Clinical_Symptoms|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D001201			
+Asthma	Autoimmune_Inflammatory	Autoimmune_Inflammatory|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D001249			
+Ataxia	Neurological_Disorders	Neurological_Disorders|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D001259			
+Atrial Flutter	Cardiovascular_Diseases	Cardiovascular_Diseases|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D001282			
+Atrophy	Clinical_Symptoms	Clinical_Symptoms|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D001284			
+Autoimmunity	Autoimmune_Inflammatory	Autoimmune_Inflammatory|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D001327			
+Autosomal dominant inheritance	General_Biological_Processes	General_Biological_Processes|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""HP:other""]}"			HP:HP:0000006		
+Blast Crisis	Clinical_Symptoms	Clinical_Symptoms|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D001752			
+Body Temperature Changes	Clinical_Symptoms	Clinical_Symptoms|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D001832			
+Body Weight	Clinical_Symptoms	Clinical_Symptoms|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D001835			
+Brain Injuries	Neurological_Disorders	Neurological_Disorders|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D001930			
+CAPN	General_Biological_Processes	General_Biological_Processes|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D002154			
+CHRN	Hormones_Receptors	Hormones_Receptors|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D011978			
+COVID-19	Infectious_Diseases	Infectious_Diseases|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D000086382			
+Cachexia	Clinical_Symptoms	Clinical_Symptoms|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D002100			
+Candidiasis	Infectious_Diseases	Infectious_Diseases|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D002177			
+Cardiomegaly	Cardiovascular_Diseases	Cardiovascular_Diseases|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D006332			
+Cardiomyopathies	Cardiovascular_Diseases	Cardiovascular_Diseases|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D009202			
+"Cardiomyopathy, Dilated"	Cardiovascular_Diseases	Cardiovascular_Diseases|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D002311			
+"Cardiomyopathy, Hypertrophic"	Cardiovascular_Diseases	Cardiovascular_Diseases|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D002312			
+Cardiotoxicity	Clinical_Symptoms	Clinical_Symptoms|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D066126			
+Cataract	Clinical_Symptoms	Clinical_Symptoms|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D002386			
+Cell Polarity	General_Biological_Processes	General_Biological_Processes|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D016764			
+Cell Shape	General_Biological_Processes	General_Biological_Processes|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D048430			
+Cell Survival	Cell_Death_Survival	Cell_Death_Survival|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D002470			
+"Cell Transformation, Neoplastic"	Cancer_and_Neoplasms	Cancer_and_Neoplasms|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D002471			
+Cholera	Infectious_Diseases	Infectious_Diseases|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D002771			
+Chromosomal Instability	Cell_Cycle_Division	Cell_Cycle_Division|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D043171			
+Chromosome Aberrations	Cell_Cycle_Division	Cell_Cycle_Division|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D002869			
+Cicatrix	Tissue_Remodeling	Other_Medical_Concepts|Tissue_Remodeling	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D002921			
+"Colitis, Ulcerative"	Autoimmune_Inflammatory	Autoimmune_Inflammatory|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D003093			
+Congenital Abnormalities	Genetic_Disorders	Genetic_Disorders|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D000013			
+"Constriction, Pathologic"	Clinical_Symptoms	Clinical_Symptoms|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D003251			
+Corneal Edema	Clinical_Symptoms	Clinical_Symptoms|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D015715			
+"Cystadenoma, Mucinous"	Cancer_and_Neoplasms	Cancer_and_Neoplasms|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D018291			
+Cysts	Clinical_Symptoms	Clinical_Symptoms|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D003560			
+"Cytotoxicity, Immunologic"	Immune_Response	Immune_Response|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D003602			
+"DNA Breaks, Double-Stranded"	DNA_Chromatin_Processes	DNA_Chromatin_Processes|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D053903			
+DRD	Hormones_Receptors	Hormones_Receptors|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D011954			
+Deafness	Clinical_Symptoms	Clinical_Symptoms|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D003638			
+"Death, Sudden, Cardiac"	Cardiovascular_Diseases	Cardiovascular_Diseases|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D016757			
+Dementia	Neurological_Disorders	Neurological_Disorders|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D003704			
+Dengue	Infectious_Diseases	Infectious_Diseases|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D003715			
+Depression	Clinical_Symptoms	Clinical_Symptoms|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D003863			
+"Dermatitis, Atopic"	Autoimmune_Inflammatory	Autoimmune_Inflammatory|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D003876			
+Diabetes Mellitus	Metabolic_Endocrine	Metabolic_Endocrine|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D003920			
+"Diabetes Mellitus, Type 2"	Metabolic_Endocrine	Metabolic_Endocrine|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D003924			
+Diabetic Nephropathies	Metabolic_Endocrine	Metabolic_Endocrine|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D003928			
+Diarrhea	Clinical_Symptoms	Clinical_Symptoms|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D003967			
+"Drug Resistance, Multiple"	Drug_Response_Resistance	Drug_Response_Resistance|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D018432			
+Dwarfism	Clinical_Symptoms	Clinical_Symptoms|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D004392			
+Dyskeratosis Congenita	Genetic_Disorders	Genetic_Disorders|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D019871			
+Dyskinesias	Neurological_Disorders	Neurological_Disorders|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D020820			
+Dystonia	Neurological_Disorders	Neurological_Disorders|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D004421			
+EGFR_ligand	Hormones_Receptors	Hormones_Receptors|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D066255			
+Edema	Clinical_Symptoms	Clinical_Symptoms|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D004487			
+"Encephalitis, Japanese"	Infectious_Diseases	Infectious_Diseases|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D004672			
+"Encephalomyelitis, Autoimmune, Experimental"	Autoimmune_Inflammatory	Autoimmune_Inflammatory|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D004681			
+Endoplasmic Reticulum Stress	Stress_Response	Other_Medical_Concepts|Stress_Response	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D059865			
+Epilepsy	Neurological_Disorders	Neurological_Disorders|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D004827			
+FGF	Hormones_Receptors	Hormones_Receptors|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D005346			
+FGFR	Hormones_Receptors	Hormones_Receptors|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D017468			
+Fatigue	Clinical_Symptoms	Clinical_Symptoms|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D005221			
+Fatty Liver	Metabolic_Endocrine	Metabolic_Endocrine|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D005234			
+Fluorescence	General_Biological_Processes	General_Biological_Processes|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D005453			
+Frontotemporal Dementia	Neurological_Disorders	Neurological_Disorders|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D057180			
+GABR	Hormones_Receptors	Hormones_Receptors|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D018079			
+GAP	General_Biological_Processes	General_Biological_Processes|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D020690			
+Genetic Heterogeneity	General_Biological_Processes	General_Biological_Processes|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D018740			
+Genome	DNA_Chromatin_Processes	DNA_Chromatin_Processes|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D016678			
+Genomic Instability	DNA_Chromatin_Processes	DNA_Chromatin_Processes|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D042822			
+"Glaucoma, Open-Angle"	Neurological_Disorders	Neurological_Disorders|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D005902			
+Glucose Intolerance	Metabolic_Endocrine	Metabolic_Endocrine|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D018149			
+Goiter	Clinical_Symptoms	Clinical_Symptoms|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D006042			
+Growth	Cell_Growth_Proliferation	Cell_Growth_Proliferation|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D006128			
+Headache	Clinical_Symptoms	Clinical_Symptoms|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D006261			
+"Hearing Loss, Sensorineural"	Clinical_Symptoms	Clinical_Symptoms|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D006319			
+Hemiplegia	Clinical_Symptoms	Clinical_Symptoms|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D006429			
+Hemorrhage	Clinical_Symptoms	Clinical_Symptoms|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D006470			
+Hepatitis B	Infectious_Diseases	Infectious_Diseases|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D006509			
+Hepatitis C	Infectious_Diseases	Infectious_Diseases|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D006526			
+Hepatomegaly	Clinical_Symptoms	Clinical_Symptoms|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D006529			
+Hydrocephalus	Clinical_Symptoms	Clinical_Symptoms|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D006849			
+Hyperaldosteronism	Metabolic_Endocrine	Metabolic_Endocrine|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D006929			
+Hyperalgesia	Clinical_Symptoms	Clinical_Symptoms|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D006930			
+Hypercalciuria	Metabolic_Endocrine	Metabolic_Endocrine|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D053565			
+Hyperinsulinism	Metabolic_Endocrine	Metabolic_Endocrine|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D006946			
+Hyperplasia	Cell_Growth_Proliferation	Cell_Growth_Proliferation|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D006965			
+Hypertension	Cardiovascular_Diseases	Cardiovascular_Diseases|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D006973			
+Hypertrophy	Cell_Growth_Proliferation	Cell_Growth_Proliferation|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D006984			
+Hypoxia	Stress_Response	Other_Medical_Concepts|Stress_Response	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D000860			
+Idiopathic Interstitial Pneumonias	General_Biological_Processes	General_Biological_Processes|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D054988			
+Infertility	Clinical_Symptoms	Clinical_Symptoms|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D007246			
+"Infertility, Male"	Clinical_Symptoms	Clinical_Symptoms|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D007248			
+Insulin Resistance	Metabolic_Endocrine	Metabolic_Endocrine|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D007333			
+Intellectual Disability	Neurological_Disorders	Other_Medical_Concepts|Neurological_Disorders	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D008607			
+Iron Overload	Clinical_Symptoms	Clinical_Symptoms|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D019190			
+"Keratoderma, Palmoplantar"	Clinical_Symptoms	Clinical_Symptoms|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D007645			
+Leprosy	Infectious_Diseases	Infectious_Diseases|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D007918			
+"Leukemia, B-Cell"	Cancer_and_Neoplasms	Cancer_and_Neoplasms|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D015448			
+"Leukemia, Hairy Cell"	Cancer_and_Neoplasms	Cancer_and_Neoplasms|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D007943			
+"Leukemia, Lymphoid"	Cancer_and_Neoplasms	Cancer_and_Neoplasms|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D007945			
+"Leukemia, Mast-Cell"	Cancer_and_Neoplasms	Cancer_and_Neoplasms|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D007946			
+"Leukemia, Megakaryoblastic, Acute"	Cancer_and_Neoplasms	Cancer_and_Neoplasms|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D007947			
+"Leukemia, Monocytic, Acute"	Cancer_and_Neoplasms	Cancer_and_Neoplasms|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D007948			
+"Leukemia, Myelogenous, Chronic, BCR-ABL Positive"	Cancer_and_Neoplasms	Cancer_and_Neoplasms|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D015464			
+"Leukemia, Myeloid"	Cancer_and_Neoplasms	Cancer_and_Neoplasms|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D007951			
+"Leukemia, Myeloid, Acute"	Cancer_and_Neoplasms	Cancer_and_Neoplasms|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D015470			
+"Leukemia, Myelomonocytic, Acute"	Cancer_and_Neoplasms	Cancer_and_Neoplasms|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D015479			
+"Leukemia, Myelomonocytic, Juvenile"	Cancer_and_Neoplasms	Cancer_and_Neoplasms|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D054429			
+"Leukemia, Promyelocytic, Acute"	Cancer_and_Neoplasms	Cancer_and_Neoplasms|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D015473			
+"Leukemia, T-Cell"	Cancer_and_Neoplasms	Cancer_and_Neoplasms|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D015458			
+"Leukoencephalopathy, Progressive Multifocal"	Infectious_Diseases	Infectious_Diseases|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D007968			
+Leukopenia	Clinical_Symptoms	Clinical_Symptoms|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D007970			
+Lipodystrophy	Metabolic_Endocrine	Metabolic_Endocrine|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D008060			
+Longevity	General_Biological_Processes	General_Biological_Processes|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D008136			
+"Lupus Erythematosus, Systemic"	Autoimmune_Inflammatory	Autoimmune_Inflammatory|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D008180			
+Lymphatic Metastasis	Cancer_and_Neoplasms	Cancer_and_Neoplasms|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D008207			
+Lymphedema	Clinical_Symptoms	Clinical_Symptoms|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D008209			
+"Lymphoma, B-Cell"	Cancer_and_Neoplasms	Cancer_and_Neoplasms|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D016393			
+"Lymphoma, Large B-Cell, Diffuse"	Cancer_and_Neoplasms	Cancer_and_Neoplasms|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D016403			
+"Lymphoma, Non-Hodgkin"	Cancer_and_Neoplasms	Cancer_and_Neoplasms|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D008228			
+Lymphopenia	Clinical_Symptoms	Clinical_Symptoms|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D008231			
+Major Histocompatibility Complex	Immune_Response	Immune_Response|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D008285			
+Malignant Hyperthermia	Clinical_Symptoms	Clinical_Symptoms|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D008305			
+"Mastocytosis, Systemic"	General_Biological_Processes	General_Biological_Processes|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D034721			
+Microcephaly	Clinical_Symptoms	Clinical_Symptoms|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D008831			
+Mitochondrial Dynamics	Energy_Mitochondrial	Energy_Mitochondrial|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D063154			
+Mitochondrial Size	Energy_Mitochondrial	Energy_Mitochondrial|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D053142			
+Multiple Chronic Conditions	General_Biological_Processes	General_Biological_Processes|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D000071069			
+Muscle Weakness	Clinical_Symptoms	Clinical_Symptoms|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D018908			
+Muscular Atrophy	Tissue_Remodeling	Other_Medical_Concepts|Tissue_Remodeling	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D009133			
+Muscular Dystrophies	Genetic_Disorders	Genetic_Disorders|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D009136			
+"Muscular Dystrophies, Limb-Girdle"	Genetic_Disorders	Genetic_Disorders|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D049288			
+"Muscular Dystrophy, Duchenne"	Genetic_Disorders	Genetic_Disorders|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D020388			
+"Muscular Dystrophy, Emery-Dreifuss"	Genetic_Disorders	Genetic_Disorders|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D020389			
+Mutation Rate	DNA_Chromatin_Processes	DNA_Chromatin_Processes|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D059645			
+Mycosis Fungoides	Cancer_and_Neoplasms	Cancer_and_Neoplasms|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D009182			
+"Myopathy, Central Core"	Genetic_Disorders	Genetic_Disorders|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D020512			
+"Neovascularization, Pathologic"	Tissue_Remodeling	Other_Medical_Concepts|Tissue_Remodeling	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D009389			
+Neural Tube Defects	Genetic_Disorders	Other_Medical_Concepts|Genetic_Disorders	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D009436			
+Neuralgia	Clinical_Symptoms	Clinical_Symptoms|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D009437			
+Neurobehavioral Manifestations	Clinical_Symptoms	Clinical_Symptoms|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D019954			
+Neurofibromatosis 1	Genetic_Disorders	Genetic_Disorders|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D009456			
+Neuronal Outgrowth	Cell_Differentiation_Development	Cell_Differentiation_Development|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D000071446			
+Neuronal Plasticity	General_Biological_Processes	General_Biological_Processes|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D009473			
+Nevus	Clinical_Symptoms	Clinical_Symptoms|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D009506			
+"Nevus, Pigmented"	Clinical_Symptoms	Clinical_Symptoms|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D009508			
+Nociceptive Pain	Clinical_Symptoms	Clinical_Symptoms|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D059226			
+Obesity	Metabolic_Endocrine	Metabolic_Endocrine|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D009765			
+Oncogenes	Cancer_and_Neoplasms	Cancer_and_Neoplasms|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D009857			
+"Ossification, Heterotopic"	Organ_System_Processes	Organ_System_Processes|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D009999			
+Oxidative Stress	Stress_Response	Other_Medical_Concepts|Stress_Response	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D018384			
+P2RX	Hormones_Receptors	Hormones_Receptors|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D058469			
+PDGF	Hormones_Receptors	Hormones_Receptors|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D010982			
+PPP1	General_Biological_Processes	General_Biological_Processes|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D054645			
+Pain	Clinical_Symptoms	Clinical_Symptoms|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D010146			
+Pancreatic Cyst	Clinical_Symptoms	Clinical_Symptoms|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D010181			
+"Pancreatitis, Chronic"	Autoimmune_Inflammatory	Autoimmune_Inflammatory|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D050500			
+Paraplegia	Clinical_Symptoms	Clinical_Symptoms|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D010264			
+Perinatal Death	Clinical_Symptoms	Clinical_Symptoms|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D066087			
+Permeability	Cellular_Transport	Cellular_Transport|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D010539			
+Pityriasis Rubra Pilaris	Clinical_Symptoms	Clinical_Symptoms|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D010916			
+"Plaque, Amyloid"	Clinical_Symptoms	Clinical_Symptoms|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D058225			
+"Plaque, Atherosclerotic"	Cardiovascular_Diseases	Cardiovascular_Diseases|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D058226			
+"Pleural Effusion, Malignant"	Cancer_and_Neoplasms	Cancer_and_Neoplasms|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D016066			
+"Pneumonia, Pneumocystis"	Infectious_Diseases	Infectious_Diseases|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D011020			
+Polycythemia Vera	Cancer_and_Neoplasms	Cancer_and_Neoplasms|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D011087			
+Polyps	Clinical_Symptoms	Clinical_Symptoms|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D011127			
+Prenatal Injuries	Clinical_Symptoms	Clinical_Symptoms|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D049188			
+Primary Dysautonomias	Clinical_Symptoms	Clinical_Symptoms|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D054969			
+Primary Ovarian Insufficiency	Clinical_Symptoms	Clinical_Symptoms|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D016649			
+Progeria	Genetic_Disorders	Genetic_Disorders|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D011371			
+Pseudohypoaldosteronism	Metabolic_Endocrine	Metabolic_Endocrine|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D011546			
+Psoriasis	Autoimmune_Inflammatory	Autoimmune_Inflammatory|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D011565			
+Pulmonary Arterial Hypertension	Cardiovascular_Diseases	Cardiovascular_Diseases|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D000081029			
+Recurrence	Clinical_Symptoms	Clinical_Symptoms|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D012008			
+Renal Insufficiency	General_Biological_Processes	General_Biological_Processes|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D051437			
+Replication Origin	DNA_Chromatin_Processes	DNA_Chromatin_Processes|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D018741			
+Retinitis Pigmentosa	Clinical_Symptoms	Clinical_Symptoms|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D012174			
+"Rhabdomyosarcoma, Embryonal"	Cancer_and_Neoplasms	Cancer_and_Neoplasms|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D018233			
+RhoGDI	General_Biological_Processes	General_Biological_Processes|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D062947			
+Rupture	Clinical_Symptoms	Clinical_Symptoms|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D012421			
+S1PR	Hormones_Receptors	Hormones_Receptors|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D000081025			
+SLC2A	Cellular_Transport	Cellular_Transport|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D051246			
+"Sarcoma, Kaposi"	Cancer_and_Neoplasms	Cancer_and_Neoplasms|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D012514			
+Seizures	Clinical_Symptoms	Clinical_Symptoms|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D012640			
+Sepsis	Infectious_Diseases	Infectious_Diseases|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D018805			
+"Shock, Septic"	Infectious_Diseases	Infectious_Diseases|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D012772			
+Signs and Symptoms	Clinical_Symptoms	Clinical_Symptoms|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D012816			
+"Sinus Thrombosis, Intracranial"	Cardiovascular_Diseases	Cardiovascular_Diseases|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D012851			
+Solubility	General_Biological_Processes	General_Biological_Processes|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D012995			
+Spinal Cord Injuries	Clinical_Symptoms	Clinical_Symptoms|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D013119			
+Spinocerebellar Ataxias	Neurological_Disorders	Neurological_Disorders|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D020754			
+Splenomegaly	Clinical_Symptoms	Clinical_Symptoms|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D013163			
+Stem Cell Niche	General_Biological_Processes	General_Biological_Processes|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D055153			
+"Stress, Mechanical"	Stress_Response	Other_Medical_Concepts|Stress_Response	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D013314			
+Stroke	Cardiovascular_Diseases	Cardiovascular_Diseases|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D020521			
+Tachycardia	Cardiovascular_Diseases	Cardiovascular_Diseases|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D013610			
+"Tachycardia, Ventricular"	Cardiovascular_Diseases	Cardiovascular_Diseases|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D017180			
+Tauopathies	Neurological_Disorders	Neurological_Disorders|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D024801			
+Thinness	Clinical_Symptoms	Clinical_Symptoms|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D013851			
+Thrombocytopenia	Clinical_Symptoms	Clinical_Symptoms|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D013921			
+Thyroid Nodule	Metabolic_Endocrine	Metabolic_Endocrine|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D016606			
+Transgenes	General_Biological_Processes	General_Biological_Processes|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D019076			
+Tremor	Clinical_Symptoms	Clinical_Symptoms|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D014202			
+Urolithiasis	Clinical_Symptoms	Clinical_Symptoms|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D052878			
+Uterine Cervical Dysplasia	Clinical_Symptoms	Clinical_Symptoms|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D002578			
+VEGFR	Hormones_Receptors	Hormones_Receptors|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D040262			
+Vascular Malformations	Cardiovascular_Diseases	Cardiovascular_Diseases|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D054079			
+Vascular Stiffness	Cardiovascular_Diseases	Cardiovascular_Diseases|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D059289			
+"Ventricular Function, Left"	Cardiovascular_Diseases	Cardiovascular_Diseases|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D016277			
+Visceral Pain	Clinical_Symptoms	Clinical_Symptoms|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D059265			
+Viscosity	General_Biological_Processes	General_Biological_Processes|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D014783			
+Weight Gain	Clinical_Symptoms	Clinical_Symptoms|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D015430			
+Weight Loss	Clinical_Symptoms	Clinical_Symptoms|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D015431			
+Wounds and Injuries	Clinical_Symptoms	Clinical_Symptoms|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D014947			
+Xeroderma Pigmentosum	Genetic_Disorders	Genetic_Disorders|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D014983			
+nutrient	General_Biological_Processes	General_Biological_Processes|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D000078622			
+src Homology Domains	General_Biological_Processes	General_Biological_Processes|Other_Medical_Concepts	"{""Other_Medical_Concepts"": [""MESH:heuristic""]}"		MESH:D018909			
+Abnormality of mitochondrial metabolism	Energy_Mitochondrial	Energy_Mitochondrial|Phenotypes_Symptoms	"{""Phenotypes_Symptoms"": [""HP:phenotype""]}"			HP:HP:0003287		
+Axonal degeneration	Neurological_Disorders	Neurological_Disorders|Phenotypes_Symptoms	"{""Phenotypes_Symptoms"": [""HP:phenotype""]}"			HP:HP:0040078		
+Choroidal melanoma	Cancer_and_Neoplasms	Cancer_and_Neoplasms|Phenotypes_Symptoms	"{""Phenotypes_Symptoms"": [""HP:phenotype""]}"			HP:HP:0012054		
+Esophageal carcinoma	Cancer_and_Neoplasms	Cancer_and_Neoplasms|Phenotypes_Symptoms	"{""Phenotypes_Symptoms"": [""HP:phenotype""]}"			HP:HP:0011459		
+Growth delay	Clinical_Symptoms	Clinical_Symptoms|Phenotypes_Symptoms	"{""Phenotypes_Symptoms"": [""HP:phenotype""]}"			HP:HP:0001510		
+Medullary thyroid carcinoma	Cancer_and_Neoplasms	Cancer_and_Neoplasms|Phenotypes_Symptoms	"{""Phenotypes_Symptoms"": [""HP:phenotype""]}"			HP:HP:0002865		
+Migratory	Cell_Movement_Adhesion	Cell_Movement_Adhesion|Phenotypes_Symptoms	"{""Phenotypes_Symptoms"": [""HP:phenotype""]}"			HP:HP:0025279		
+Nevus sebaceus	Clinical_Symptoms	Clinical_Symptoms|Phenotypes_Symptoms	"{""Phenotypes_Symptoms"": [""HP:phenotype""]}"			HP:HP:0025511		
+Phenotypic variability	Clinical_Symptoms	Clinical_Symptoms|Phenotypes_Symptoms	"{""Phenotypes_Symptoms"": [""HP:phenotype""]}"			HP:HP:0003812		
+Postural instability	Clinical_Symptoms	Clinical_Symptoms|Phenotypes_Symptoms	"{""Phenotypes_Symptoms"": [""HP:phenotype""]}"			HP:HP:0002172		
+Short stature	Clinical_Symptoms	Clinical_Symptoms|Phenotypes_Symptoms	"{""Phenotypes_Symptoms"": [""HP:phenotype""]}"			HP:HP:0004322		
+triphosphatase activity	General_Biological_Processes	General_Biological_Processes	{}	GO:0050355				
