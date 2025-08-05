@@ -10,7 +10,6 @@ Compare three BP prediction strategies in this framework:
 
 import argparse, copy, random, torch, torch.nn as nn, torch.optim as optim
 from torch.utils.data import Dataset, DataLoader
-from torch.nn.utils.rnn import pad_sequence
 from sklearn.metrics import (f1_score, precision_score, accuracy_score,
                            roc_auc_score, average_precision_score, coverage_error, recall_score)
 from tqdm import tqdm
@@ -19,10 +18,10 @@ import pandas as pd
 import math
 import warnings
 import os
-from datetime import datetime
-import json
+
 
 warnings.filterwarnings('ignore')
+
 
 # Dataset with Categories and Split Loading
 class HierarchicalBagDataset(Dataset):
@@ -91,6 +90,7 @@ class HierarchicalBagDataset(Dataset):
     def __getitem__(self, i):
         return (self.variant[i], self.paths_tok[i], self.paths_mask[i], 
                 self.y[i], self.y_category[i])
+
 
 def collate_fn_hierarchical(batch):
     """Collate function with category labels"""

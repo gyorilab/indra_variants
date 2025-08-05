@@ -12,21 +12,19 @@ import pandas as pd
 import torch
 from torch_geometric.data import Data
 from torch_geometric.nn import RGCNConv
-from tqdm import tqdm
 import numpy as np
 import os
 from datetime import datetime
 import json
-import re
 
 # ---------- hyperparams ----------
 TRIPLE_CSV = "triples_unique.csv"
-OUT_FILE   = "node_embeds.pt"
-D_GNN  = 256
+OUT_FILE  = "node_embeds.pt"
+D_GNN = 256
 EPOCHS = 300
-LR     = 1e-3
+LR = 1e-3
 DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
-SEED   = 42
+SEED = 42
 
 torch.manual_seed(SEED)
 np.random.seed(SEED)
@@ -153,10 +151,12 @@ class RGCN(torch.nn.Module):
         x = torch.relu(self.conv2(x, ei, et))
         return x, self.rel_emb
 
+
 model = RGCN(D_GNN, num_rels).to(DEVICE)
-opt   = torch.optim.Adam(model.parameters(), lr=LR)
+opt = torch.optim.Adam(model.parameters(), lr=LR)
 
 print(f"Model parameters: {sum(p.numel() for p in model.parameters()):,}")
+
 
 # ---------- DistMult loss ----------
 def link_loss(node_emb, rel_emb, ei, et, num_samples=2):
@@ -175,6 +175,7 @@ def link_loss(node_emb, rel_emb, ei, et, num_samples=2):
 
     return (torch.nn.functional.softplus(-pos).mean() +
             torch.nn.functional.softplus( neg).mean())
+
 
 # ---------- training ----------
 print(f"\nStarting training for {EPOCHS} epochs...")

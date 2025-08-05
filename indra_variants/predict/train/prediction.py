@@ -9,7 +9,7 @@ Hierarchical prediction of biological processes and diseases from variant featur
 from __future__ import annotations
 import argparse, json, re, warnings, math, os
 from collections import defaultdict
-from typing import Dict, Tuple, List, Optional
+from typing import Tuple
 import numpy as np
 import pandas as pd
 import torch
@@ -25,9 +25,9 @@ AA3 = {
     'GLY': 'G', 'HIS': 'H', 'ILE': 'I', 'LEU': 'L', 'LYS': 'K', 'MET': 'M', 'PHE': 'F',
     'PRO': 'P', 'SER': 'S', 'THR': 'T', 'TRP': 'W', 'TYR': 'Y', 'VAL': 'V'
 }
-RE_ONE   = re.compile(r"([A-Z])(\d+)([A-Z\*])")
+RE_ONE = re.compile(r"([A-Z])(\d+)([A-Z\*])")
 RE_THREE = re.compile(r"[p\.]?([A-Z][a-z]{2})(\d+)([A-Z][a-z]{2}|\*)")
-AA2IDX   = {a: i for i, a in enumerate("ACDEFGHIKLMNPQRSTVWY")}
+AA2IDX = {a: i for i, a in enumerate("ACDEFGHIKLMNPQRSTVWY")}
 
 
 # ---------- Utility Functions ----------

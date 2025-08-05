@@ -15,9 +15,11 @@ df = pd.read_csv("training_feature_input.tsv", sep="\t")
 sequences = df["sequence"]
 mutations = df["variant_info"]
 
+
 def parse_mutation_pos(vinfo):
     match = re.match(r"[A-Z]([0-9]+)[A-Z\*]", str(vinfo).strip())
     return int(match.group(1)) if match else None
+
 
 # center crop（max:4096）
 def center_crop_sequence(seq, mut_pos, max_len=4096):
@@ -30,6 +32,7 @@ def center_crop_sequence(seq, mut_pos, max_len=4096):
     end = min(L, start + max_len)
     return seq[start:end]
 
+
 # embedding
 def embed_sequence(seq):
     data = [("protein", " ".join(seq))]
@@ -39,6 +42,7 @@ def embed_sequence(seq):
     token_representations = results["representations"][36]
     embedding = token_representations[0, 1:-1].mean(dim=0).cpu().tolist()
     return embedding
+
 
 # write cache
 embedding_cache = {}

@@ -14,16 +14,16 @@ import torch
 from tqdm import tqdm
 
 # ─────────────────────────── file paths ────────────────────────────────
-X_FILE    = "../seq_embedding/training_feature_esm2.tsv"
+X_FILE = "../seq_embedding/training_feature_esm2.tsv"
 PATH_FILE = "../gnn_pretraining/variant_paths.tsv"
-EMB_FILE  = "../gnn_pretraining/node_embeds.pt"
+EMB_FILE = "../gnn_pretraining/node_embeds.pt"
 LABEL_CLASSIFIED_FILE = "../seq_embedding/label_classified.tsv"
-OUT_FILE  = "path_dataset_bag_full.pt"
-W_VAR_PT  = "W_var.pt"
+OUT_FILE = "path_dataset_bag_full.pt"
+W_VAR_PT = "W_var.pt"
 
 # ───────────────────── hyper-parameters / dims ─────────────────────────
 D_MISC, D_AA, D_POS = 9, 40, 1
-D_GNN,  D_TOK       = 256, 512
+D_GNN, D_TOK = 256, 512
 
 # ───────────────────────── reproducibility ─────────────────────────────
 random.seed(42);  np.random.seed(42);  torch.manual_seed(42)

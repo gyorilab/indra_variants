@@ -12,12 +12,13 @@ import json
 import csv
 from collections import defaultdict
 
-IN_FILE    = "../seq_embedding/variant_with_esm2.tsv"
+IN_FILE = "../seq_embedding/variant_with_esm2.tsv"
 TRIPLE_OUT = "triples.csv"
 TRIPLE_UNIQUE_OUT = "triples_unique.csv"
-PATH_OUT   = "variant_paths.tsv"
+PATH_OUT = "variant_paths.tsv"
 
 PAT = re.compile(r"(.*?)\s-\[([^\]]+?)]->\s(.*)")
+
 
 def split_chain(chain):
     """return triples[], nodes[], rels[]"""
@@ -37,11 +38,13 @@ def split_chain(chain):
         cur = rest
     return triples, nodes, rels
 
+
 def clean_bp_name(bp):
     """clean biological process/disease name for path_id"""
     if pd.isna(bp):
         return "unknown"
     return bp.replace(" ", "_").replace("/", "-").replace(":", "").replace(",", "")[:50]
+
 
 df = pd.read_csv(IN_FILE, sep="\t",
                  usecols=["variant_protein", "variant_info", "chain","biological_process/disease"],)
