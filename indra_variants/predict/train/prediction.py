@@ -579,7 +579,7 @@ def main():
     # Model and data paths
     ap.add_argument("--model", default="models/best_model.pt",
                     help="Path to trained model checkpoint")
-    ap.add_argument("--esm_tsv", default="../seq_embedding/variant_with_esm2.tsv", 
+    ap.add_argument("--esm_tsv", default="../../data/variant_with_esm2.tsv",
                     help="TSV file with ESM embeddings")
     ap.add_argument("--w_var", help="Path to W_var matrix (optional)")
     ap.add_argument("--label_classified", default="../seq_embedding/label_classified.tsv",

@@ -11,8 +11,12 @@ import re
 import json
 import csv
 from collections import defaultdict
+import os
 
-IN_FILE = "../seq_embedding/variant_with_esm2.tsv"
+HERE = os.path.basename(os.path.abspath(__file__))
+DATA_PATH = os.path.join(os.pardir, os.pardir, 'data')
+
+IN_FILE = os.path.join(DATA_PATH, "variant_with_esm2.tsv")
 TRIPLE_OUT = "triples.csv"
 TRIPLE_UNIQUE_OUT = "triples_unique.csv"
 PATH_OUT = "variant_paths.tsv"
