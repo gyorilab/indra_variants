@@ -11,7 +11,8 @@ Compare three BP prediction strategies in this framework:
 import argparse, copy, random, torch, torch.nn as nn, torch.optim as optim
 from torch.utils.data import Dataset, DataLoader
 from sklearn.metrics import (f1_score, precision_score, accuracy_score,
-                           roc_auc_score, average_precision_score, coverage_error, recall_score)
+                             roc_auc_score, average_precision_score,
+                             coverage_error, recall_score)
 from tqdm import tqdm
 import numpy as np
 import pandas as pd
@@ -22,6 +23,9 @@ import os
 
 warnings.filterwarnings('ignore')
 
+HERE = os.path.basename(os.path.abspath(__file__))
+DATA_PATH = os.path.join(os.pardir, os.pardir, 'data')
+
 
 # Dataset with Categories and Split Loading
 class HierarchicalBagDataset(Dataset):
@@ -30,7 +34,7 @@ class HierarchicalBagDataset(Dataset):
         d = torch.load(pt_file, map_location="cpu", weights_only=False)
         
         # Load split from CSV file
-        split_csv = f'data/splits/split_seed_{seed:02d}.csv'
+        split_csv = os.path.join(DATA_PATH, 'splits', f'split_seed_{seed:02d}.csv')
         if os.path.exists(split_csv):
             split_df = pd.read_csv(split_csv)
             split_dict = dict(zip(split_df['variant_id'], split_df['split']))
@@ -140,6 +144,7 @@ def collate_fn_hierarchical(batch):
         'categories': y_cat_batch
     }
 
+
 # Model Architecture Components
 class PositionalEncoding(nn.Module):
     def __init__(self, d_model, max_len=500, dropout=0.1):
@@ -158,6 +163,7 @@ class PositionalEncoding(nn.Module):
         x = x + self.pe[:, :x.size(1)]
         return self.dropout(x)
 
+
 class PathEncoder(nn.Module):
     def __init__(self, d=512, heads=8, layers=2, drop=0.1):
         super().__init__()
@@ -175,6 +181,7 @@ class PathEncoder(nn.Module):
         padding_mask = ~mask
         h = self.enc(h, src_key_padding_mask=padding_mask)
         return self.norm(h[:, 0, :])
+
 
 # Unified Model with Three Prediction Modes
 class UnifiedBPModel(nn.Module):
@@ -319,6 +326,7 @@ class UnifiedBPModel(nn.Module):
         
         return result
 
+
 # Loss Functions
 class AsymmetricLoss(nn.Module):
     def __init__(self, gamma_neg=4, gamma_pos=1, clip=0.05, eps=1e-8):
@@ -345,6 +353,7 @@ class AsymmetricLoss(nn.Module):
         loss = -los_pos - los_neg
         return loss.mean()
 
+
 class FocalLoss(nn.Module):
     def __init__(self, alpha=0.25, gamma=2.0):
         super().__init__()
@@ -358,6 +367,7 @@ class FocalLoss(nn.Module):
         pt = torch.exp(-bce_loss)
         focal_loss = self.alpha * (1-pt)**self.gamma * bce_loss
         return focal_loss.mean()
+
 
 # Unified Loss Function
 class UnifiedLoss(nn.Module):
@@ -455,6 +465,7 @@ class UnifiedLoss(nn.Module):
         
         return consistency_loss / len(self.category_to_labels) if self.category_to_labels else consistency_loss
 
+
 # Evaluation Functions
 @torch.inference_mode()
 def evaluate_with_threshold_search(model, loader, dev, thresholds=[0.5]):
@@ -515,6 +526,7 @@ def evaluate_with_threshold_search(model, loader, dev, thresholds=[0.5]):
     
     return results
 
+
 def compute_simple_metrics(y_true, y_pred, y_scores):
     """Compute evaluation metrics"""
     tp = ((y_true == 1) & (y_pred == 1)).sum()
@@ -558,6 +570,7 @@ def compute_simple_metrics(y_true, y_pred, y_scores):
         'auprc': np.mean(pr_auc_scores) if pr_auc_scores else 0.0,
         'coverage': coverage
     }
+
 
 # Training and Evaluation Functions
 def train_single_mode_seed(args, mode, seed):
@@ -729,6 +742,7 @@ def train_single_mode_seed(args, mode, seed):
     
     return seed_results, best_test_result, best_epoch
 
+
 def save_results_to_tsv(results_list, output_path):
     """Save results to TSV file"""
     if not results_list:
@@ -756,6 +770,7 @@ def save_results_to_tsv(results_list, output_path):
     
     df[ordered_cols].to_csv(output_path, sep='\t', index=False, float_format='%.4f')
     print(f"Results saved to: {output_path}")
+
 
 def save_comparison_summary(all_best_results, output_path):
     """Save comparison summary across all modes"""
@@ -795,6 +810,7 @@ def save_comparison_summary(all_best_results, output_path):
     
     print(f"Comparison results saved to: {output_path}")
     print(f"Summary statistics saved to: {summary_path}")
+
 
 def main_unified_comparison(args):
     """Main function to run unified comparison"""
@@ -870,11 +886,12 @@ def main_unified_comparison(args):
         if 'best_epoch' in mode_df.columns:
             print(f"  Best Epochs: {mode_df['best_epoch'].mean():.1f} ± {mode_df['best_epoch'].std():.1f}")
 
+
 if __name__ == "__main__":
     parser = argparse.ArgumentParser("Unified BP Prediction Comparison")
     
     # Data
-    parser.add_argument("--data", default="data/path_dataset_bag_full.pt")
+    parser.add_argument("--data", default=os.path.join(DATA_PATH, "path_dataset_bag_full.pt"))
     parser.add_argument("--seed_start", type=int, default=0, help="Starting seed (inclusive)")
     parser.add_argument("--seed_end", type=int, default=30, help="Ending seed (exclusive)")
     

@@ -18,8 +18,10 @@ from datetime import datetime
 import json
 
 # ---------- hyperparams ----------
-TRIPLE_CSV = "triples_unique.csv"
-OUT_FILE  = "node_embeds.pt"
+HERE = os.path.basename(os.path.abspath(__file__))
+DATA_PATH = os.path.join(os.pardir, os.pardir, 'data')
+TRIPLE_CSV = os.path.join(DATA_PATH, "triples_unique.csv")
+OUT_FILE = os.path.join(DATA_PATH, "node_embeds.pt")
 D_GNN = 256
 EPOCHS = 300
 LR = 1e-3
@@ -55,9 +57,9 @@ def link_loss(node_emb, rel_emb, ei, et, num_samples=2):
     # negative sampling: corrupt tail
     neg_t_idx = torch.randint(0, node_emb.size(0), (ei.size(1)*num_samples,),
                               device=node_emb.device)
-    neg_t  = node_emb[neg_t_idx]
-    neg_r  = rel_emb[et.repeat_interleave(num_samples)]
-    neg_h  = h.repeat_interleave(num_samples, dim=0)
+    neg_t = node_emb[neg_t_idx]
+    neg_r = rel_emb[et.repeat_interleave(num_samples)]
+    neg_h = h.repeat_interleave(num_samples, dim=0)
     neg = (neg_h * neg_r * neg_t).sum(dim=1)
 
     return (torch.nn.functional.softplus(-pos).mean() +
@@ -163,8 +165,8 @@ if __name__ == '__main__':
     # ---------- PyG graph ----------
     edge_index = torch.tensor([[node2id[h] for h in heads],
                                [node2id[t] for t in tails]], dtype=torch.long)
-    edge_type  = torch.tensor([rel2id[r] for r in rels], dtype=torch.long)
-    x_init     = torch.randn(num_nodes, D_GNN)
+    edge_type = torch.tensor([rel2id[r] for r in rels], dtype=torch.long)
+    x_init = torch.randn(num_nodes, D_GNN)
 
     data = Data(x=x_init, edge_index=edge_index, edge_type=edge_type)
     data.num_nodes = num_nodes
@@ -192,7 +194,7 @@ if __name__ == '__main__':
         loss.backward()
         opt.step()
 
-        if epoch==1 or epoch%10==0:
+        if epoch == 1 or epoch%10 == 0:
             print(f"epoch {epoch:03d}/{EPOCHS}  link-loss={loss.item():.4f}")
 
         # Save checkpoint every 50 epochs

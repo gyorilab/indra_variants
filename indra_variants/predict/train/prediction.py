@@ -14,12 +14,14 @@ import numpy as np
 import pandas as pd
 import torch
 import torch.nn as nn
-import torch.nn.functional as F
 from tqdm import tqdm
+import os
 
 warnings.filterwarnings('ignore')
 
 # ---------- Constants ----------
+HERE = os.path.basename(os.path.abspath(__file__))
+DATA_PATH = os.path.join(os.pardir, os.pardir, 'data')
 AA3 = {
     'ALA': 'A', 'ARG': 'R', 'ASN': 'N', 'ASP': 'D', 'CYS': 'C', 'GLN': 'Q', 'GLU': 'E',
     'GLY': 'G', 'HIS': 'H', 'ILE': 'I', 'LEU': 'L', 'LYS': 'K', 'MET': 'M', 'PHE': 'F',
@@ -577,12 +579,12 @@ def main():
     )
     
     # Model and data paths
-    ap.add_argument("--model", default="models/best_model.pt",
+    ap.add_argument("--model", default=os.path.join(HERE, "models", "best_model.pt"),
                     help="Path to trained model checkpoint")
-    ap.add_argument("--esm_tsv", default="../../data/variant_with_esm2.tsv",
+    ap.add_argument("--esm_tsv", default=os.path.join(DATA_PATH, "variant_with_esm2.tsv"),
                     help="TSV file with ESM embeddings")
     ap.add_argument("--w_var", help="Path to W_var matrix (optional)")
-    ap.add_argument("--label_classified", default="../seq_embedding/label_classified.tsv",
+    ap.add_argument("--label_classified", default=os.path.join(DATA_PATH, "label_classified.tsv"),
                     help="TSV file with label-category mappings")
     
     # Input options
@@ -593,9 +595,9 @@ def main():
                      help="File with variants (one per line). Default: variants.txt")
     
     # Resource files
-    ap.add_argument("--domains", default="../../data/human_domains.tsv",
+    ap.add_argument("--domains", default=os.path.join(DATA_PATH, "human_domains.tsv"),
                     help="UniProt domain annotations file")
-    ap.add_argument("--clinvar", default="../../data/clinvar_patho_subset.tsv.gz",
+    ap.add_argument("--clinvar", default=os.path.join(DATA_PATH, "clinvar_patho_subset.tsv.gz"),
                     help="ClinVar pathogenicity annotations file")
     
     # Output options
