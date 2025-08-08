@@ -23,9 +23,6 @@ import os
 
 warnings.filterwarnings('ignore')
 
-HERE = os.path.basename(os.path.abspath(__file__))
-DATA_PATH = os.path.join(os.pardir, os.pardir, 'data')
-
 
 # Dataset with Categories and Split Loading
 class HierarchicalBagDataset(Dataset):
