@@ -74,8 +74,7 @@ if __name__ == '__main__':
 
     paths_df = pd.read_csv(PATH_FILE, sep="\t")
     BP_COL = "biological_process/disease"
-    if "path_score" not in paths_df.columns:
-        paths_df["path_score"] = 1.0
+
 
     # load label classification file
     label_class_df = pd.read_csv(LABEL_CLASSIFIED_FILE, sep="\t")
@@ -117,7 +116,7 @@ if __name__ == '__main__':
 
     variant_vecs, paths_tok, paths_mask = [], [], []
     label_vecs, category_vecs, n_paths, n_bps = [], [], [], []
-    variant_ids_list = []  # 重要：保存variant_id的顺序
+    variant_ids_list = []
     miss_node, miss_rel, miss_var = set(), set(), set()
 
     print("Building variant-level bags with category info …")
@@ -125,7 +124,6 @@ if __name__ == '__main__':
         if vid not in x_df.index:
             miss_var.add(vid);  continue
 
-        # 重要：记录variant_id的顺序
         variant_ids_list.append(vid)
 
         # 1) variant vector
@@ -148,7 +146,7 @@ if __name__ == '__main__':
 
         # 3) all paths
         pv_tok, pv_msk = [], []
-        for _, row in g.sort_values("path_score", ascending=False).iterrows():
+        for _, row in g.iterrows():
             try:
                 nodes = json.loads(row["nodes_json"])
                 rels  = json.loads(row["rels_json"])

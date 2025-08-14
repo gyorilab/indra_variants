@@ -216,7 +216,8 @@ class HierarchicalPredictor:
         domains: str | None = None,
         clinvar: str | None = None,
         w_var_path: str | None = None,
-        label_classified_path: str = "label_classified.tsv"
+        label_classified_path: str = "label_classified.tsv",
+        path_data_file: str | None = None
     ):
         self.device = device
         
@@ -226,6 +227,7 @@ class HierarchicalPredictor:
         # Load data resources
         self._load_esm_embeddings(esm_tsv_path)
         self._load_projection_matrix(w_var_path)
+        self._load_path_data(path_data_file)
         self.domains = self._load_domains(domains)
         self.clinvar = self._load_clinvar(clinvar)
         self.label_to_category = self._load_label_category_mapping(label_classified_path)
@@ -334,8 +336,7 @@ class HierarchicalPredictor:
                     continue
         
         if self.W_var is None:
-            print("ERROR: Could not find W_var matrix. Using random initialization (results will be poor)")
-            self.W_var = torch.randn(2611, 512) / np.sqrt(2611)
+            raise FileNotFoundError("Could not find W_var matrix.")
         
         self.W_var = self.W_var.to(self.device)
         print(f"W_var shape: {self.W_var.shape}")
@@ -434,6 +435,47 @@ class HierarchicalPredictor:
         except Exception as e:
             print(f"Error loading label classification file: {e}")
             return label_to_category
+        
+    def _load_path_data(self, path_data_file: str | None):
+        """Load path data from path_dataset_bag_full.pt"""
+        self.variant_to_paths = {}
+        
+        if path_data_file is None:
+            possible_paths = [
+                os.path.join(os.pardir, os.pardir, 'data', 'path_dataset_bag_full.pt'),
+                'path_dataset_bag_full.pt',
+                os.path.join('data', 'path_dataset_bag_full.pt'),
+            ]
+        else:
+            possible_paths = [path_data_file]
+        
+        loaded = False
+        for path in possible_paths:
+            if os.path.exists(path):
+                try:
+                    print(f"Loading path data from {path}")
+                    data = torch.load(path, map_location=self.device, weights_only=False)
+                    
+                    variant_ids = data.get("variant_ids", [])
+                    paths_tok = data.get("paths_tok", [])
+                    paths_mask = data.get("paths_mask", [])
+                    
+                    for i, vid in enumerate(variant_ids):
+                        self.variant_to_paths[vid] = {
+                            'paths_tok': paths_tok[i],
+                            'paths_mask': paths_mask[i]
+                        }
+                    
+                    print(f"Loaded path data for {len(self.variant_to_paths)} variants")
+
+                    loaded = True
+                    break
+                except Exception as e:
+                    print(f"Failed to load path data from {path}: {e}")
+                    continue
+        
+        if not loaded:
+            print("Warning: No path data loaded. Will use zero paths for all predictions.")
 
     @staticmethod
     def _map_patho(txt: str) -> float:
@@ -468,6 +510,7 @@ class HierarchicalPredictor:
         print(f"- Domain annotations: {len(self.domains)} proteins")
         print(f"- ClinVar annotations: {len(self.clinvar)} variants")
         print(f"- Label-category mappings: {len(self.label_to_category)}")
+        print(f"- Path data: {len(self.variant_to_paths)} variants")  
 
     def _get_variant_features(self, variant_id: str) -> torch.Tensor:
         """Build variant features matching the training data format."""
@@ -516,20 +559,76 @@ class HierarchicalPredictor:
         ])
         
         return features @ self.W_var
-
+    
     @torch.inference_mode()
     def predict_one(self, variant_id: str, top_k: int = 30, return_categories: bool = True):
         """Predict biological processes and categories for a single variant."""
         # Get variant vector
         variant_vec = self._get_variant_features(variant_id).to(self.device)
+        gene = variant_id.split("_")[0]
         
-        # Create batch_data structure
+        # Initialize paths variables
+        paths = None
+        masks = None
+        path_to_sample = None
+        
+        # Try to get paths for this variant
+        if variant_id in self.variant_to_paths:
+            # Direct match found
+            path_info = self.variant_to_paths[variant_id]
+            paths_list = path_info['paths_tok']
+            masks_list = path_info['paths_mask']
+        else:
+            # Try to find paths from same gene
+            paths_list = None
+            masks_list = None
+            
+            for vid in self.variant_to_paths:
+                if vid.startswith(gene + "_"):
+                    print(f"Using paths from {vid} for {variant_id} (same gene)")
+                    template_info = self.variant_to_paths[vid]
+                    template_paths = template_info['paths_tok']
+                    template_masks = template_info['paths_mask']
+                    
+                    # Replace first token with current variant's features
+                    paths_list = []
+                    masks_list = []
+                    for path, mask in zip(template_paths, template_masks):
+                        new_path = path.clone()
+                        new_path[0] = variant_vec  # Replace with current variant
+                        paths_list.append(new_path)
+                        masks_list.append(mask)
+                    break
+            
+            if paths_list is None:
+                print(f"Warning: No path data for gene {gene}, using zero paths")
+        
+        # Process paths if available
+        if paths_list and len(paths_list) > 0:
+            # Pad all paths to same length
+            max_len = max(p.shape[0] for p in paths_list)
+            padded_paths = torch.zeros(len(paths_list), max_len, 512)
+            padded_masks = torch.zeros(len(paths_list), max_len, dtype=torch.bool)
+            
+            for i, (path, mask) in enumerate(zip(paths_list, masks_list)):
+                seq_len = path.shape[0]
+                padded_paths[i, :seq_len] = path
+                padded_masks[i, :seq_len] = mask.bool()
+            
+            paths = padded_paths.to(self.device)
+            masks = padded_masks.to(self.device)
+            path_to_sample = torch.zeros(len(paths_list), dtype=torch.long).to(self.device)
+        else:
+            # No paths available
+            paths = torch.zeros(0, 1, 512).to(self.device)
+            masks = torch.zeros(0, 1, dtype=torch.bool).to(self.device)
+            path_to_sample = torch.tensor([], dtype=torch.long).to(self.device)
+        
         batch_data = {
             'variants': variant_vec.unsqueeze(0),
-            'paths': torch.zeros(0, 1, 512).to(self.device),
-            'masks': torch.zeros(0, 1, dtype=torch.bool).to(self.device),
-            'path_to_sample': torch.tensor([], dtype=torch.long).to(self.device),
-            'paths_per_sample': torch.tensor([0]).to(self.device)
+            'paths': paths,
+            'masks': masks, 
+            'path_to_sample': path_to_sample, 
         }
         
         # Get predictions
@@ -559,6 +658,7 @@ class HierarchicalPredictor:
             'labels': label_preds[:top_k],
             'categories': category_preds[:top_k] if return_categories else []
         }
+    
 
     def explain_variant(self, variant_id: str):
         """Get domain and ClinVar annotations for a variant."""
@@ -599,6 +699,8 @@ def main():
                     help="UniProt domain annotations file")
     ap.add_argument("--clinvar", default=os.path.join(DATA_PATH, "clinvar_patho_subset.tsv.gz"),
                     help="ClinVar pathogenicity annotations file")
+    ap.add_argument("--path_data", default=os.path.join(DATA_PATH, "path_dataset_bag_full.pt"),
+                help="Path to path_dataset_bag_full.pt file with precomputed paths")
     
     # Output options
     ap.add_argument("--top_k", type=int, default=10,
@@ -609,6 +711,7 @@ def main():
                     help="Output file for batch predictions (JSON format)")
     ap.add_argument("--no_categories", action="store_true", 
                     help="Disable category prediction output")
+    
     
     args = ap.parse_args()
     
@@ -635,7 +738,8 @@ def main():
         domains=args.domains,
         clinvar=args.clinvar,
         w_var_path=args.w_var,
-        label_classified_path=args.label_classified
+        label_classified_path=args.label_classified,
+        path_data_file=args.path_data
     )
 
     if args.variant:
