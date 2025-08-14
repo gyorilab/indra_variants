@@ -53,10 +53,10 @@ Use `predict/train/build_train_dataset.py` to assemble complete training dataset
 Use `predict/train/training.py`.
 - input: `path_dataset_bag_full.pt`
 
-Run the script with the -h argument to see additional arguments.
+Run the script with the `-h` argument to see additional arguments.
 
 ### Predict
 Use `predict/train/prediction.py`.
 
-Run the script with the -h argument to see additional arguments.
+Run the script with the `-h` argument to see additional arguments.
 
